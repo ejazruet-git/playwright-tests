@@ -1,0 +1,2 @@
+Create account response: { responseCode: 201, message: 'User created!' }
+✅ User credentials saved to E:\Projects\Playwright_Automation_VSCodeExt\userData.json

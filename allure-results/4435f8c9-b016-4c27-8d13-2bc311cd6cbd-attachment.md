@@ -1,0 +1,215 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9] [cursor=pointer]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15] [cursor=pointer]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18] [cursor=pointer]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21] [cursor=pointer]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Logout" [ref=e23] [cursor=pointer]:
+            - /url: /logout
+            - generic [ref=e24] [cursor=pointer]: 
+            - text: Logout
+        - listitem [ref=e25]:
+          - link " Delete Account" [ref=e26] [cursor=pointer]:
+            - /url: /delete_account
+            - generic [ref=e27] [cursor=pointer]: 
+            - text: Delete Account
+        - listitem [ref=e28]:
+          - link " Test Cases" [ref=e29] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e30] [cursor=pointer]: 
+            - text: Test Cases
+        - listitem [ref=e31]:
+          - link " API Testing" [ref=e32] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e33] [cursor=pointer]: 
+            - text: API Testing
+        - listitem [ref=e34]:
+          - link " Video Tutorials" [ref=e35] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e36] [cursor=pointer]: 
+            - text: Video Tutorials
+        - listitem [ref=e37]:
+          - link " Contact us" [ref=e38] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e39] [cursor=pointer]: 
+            - text: Contact us
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 
+            - text: Logged in as
+            - generic [ref=e43]: Test User
+  - generic [ref=e45]:
+    - img "Website for practice" [ref=e46]
+    - textbox "Search Product" [ref=e47]: Stylish Dress
+    - button "" [ref=e48] [cursor=pointer]:
+      - generic [ref=e49] [cursor=pointer]: 
+  - generic [ref=e52]:
+    - generic [ref=e54]:
+      - heading "Category" [level=2] [ref=e55]
+      - generic [ref=e56]:
+        - heading " Women" [level=4] [ref=e59]:
+          - link " Women" [ref=e60] [cursor=pointer]:
+            - /url: "#Women"
+            - generic [ref=e62] [cursor=pointer]: 
+            - text: Women
+        - heading " Men" [level=4] [ref=e65]:
+          - link " Men" [ref=e66] [cursor=pointer]:
+            - /url: "#Men"
+            - generic [ref=e68] [cursor=pointer]: 
+            - text: Men
+        - heading " Kids" [level=4] [ref=e71]:
+          - link " Kids" [ref=e72] [cursor=pointer]:
+            - /url: "#Kids"
+            - generic [ref=e74] [cursor=pointer]: 
+            - text: Kids
+      - insertion [ref=e76]:
+        - iframe [ref=e78]:
+          - generic [active] [ref=f1e1]:
+            - generic [ref=f1e6]:
+              - link [ref=f1e7] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CKAqRdpwLab7gErjPmsMPx6nc0QKG352LggHb_dy59RTwLhABIP20npUBYLOQWqAB2JvFrz_IAQmoAwGqBP0BT9CFi4J5bscS7c1uL4gTBdBvVW8t83kEjSb8EVePHOuDlddyJHW-mSYjaX6voQk0SPctlnpwdgKZ2xatYqV6O-o-0xGpuw2HCmxR6_3_4ybvc2g223VRcckBS8McZalZwiwESQnOpxxKT5w-YIk4nwjdkdvQd1NfuYP3cM3jkvyvlp1BdbuN_r0KgLWDIWWaDAImRFgy3gFfT9kZzmIAnE0NBX686PJ3-OhOicr6IXVmhf-KubAG0P2yOFn_yA8oP8A25s_kUK76CSMYXSP4RtutiuHZjwjob2oxx3lQ746fw_ZEX5-y54quA0Ds97853mDnm0dX7dnz9S02ssAEkJjdhrYF4AQDiAWwlI7uVZAGAaAGLoAH2NOVjxqoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliF2LDh1tuQA4AKAZgLAcgLAYAMAaIMCCoGCgTW2LECqg0CQkTqDRMIxd_I4dbbkAMVuKdmAh3HFDcq8A0CiA4JsBOmtZIfyBPOjIPoA9ATANgTCogUCtgUAdAVAcoWAgoA-BYBgBcBshcCGALoFwWyGAkSAqFQGC4iAQDQGQHYGQE&ae=1&num=1&cid=CAQSnwEAwksa0cVgOEDgrDAbWk1SR7zvVSHQQ_FFfhIAlaU9fbq7HW3DgA5bpmX22PuJq-B-PZZfaGXrIbsWL5ET7OJAMQXYVmctzmSLoclfPV8RnBe4dfwk3wGV31hkpBzID8CzkjX9RJmxge29leLjtTA88mliuAcxSUuHdsbzGGFL2_DBUu0xTxnRlFlhJXcna_R_c_kud5Va8Tf9JugciXkYAQ&sig=AOD64_26nNLxlBf1-Cxp6D4PoUbWyd2eQQ&client=ca-pub-1677597403311019&dbm_c=AKAmf-DGMc9Zfa1vDBQVOipI5o_R11LoawIpDLmBPJgqXngRcL9t3FQNGQrRoIjtsYboninC2PZch9AF8MUxTzbljc951cHOt7mtV7QS_vFwOOHewEmg27NlkzMXFwYd_boaX4f_snVKTxHlxTHAu77wI-DD75_haX8VXoBUmL_rQr3hBxBTfLSXmvsyQacP3nqRwRYWvh05IPIBdyx52Fox2eXwap4Pdq6jNFWkM0HYT-1lWLEB-R8H87bk1WAsb72WNHZqshyxeDRa0drcUn37vAtPfs6XqALf54qgZ_f5c500614ihSc&cry=1&dbm_d=AKAmf-Cbwego6P-vba1M0Csyl9wkT1nAPCTRq3jBlMODh9MLu0qPAKkIjV9lsCBgt-Ai1GOp6Uwvg5EbBKCp7pMyyXM3mroyd6LZVRpCrF5cj6UQVoCguuPE_wKy55X3E0xnX3pE__ufdEwXUwlVDg_-3-hGm5vN-uc5v2Ehtzmgar9MiAtkHINUxCFInQoKZ2Br5FPMKCWEpVtX4Rkkn1X4oEbEVKm956pFPIE4oTnyLSpDi20axUHyh4J_P36I58ihgATMBgZ1vAJk5GnZ5ShHzOzx5i1rW6aiceUXAEFb66foo8zVGbIwKUYb4A9oFI85XLqaMMVa_NvadVDe0sSUbpw0NuWBNoEP7drxXOCpXlCLHemRvCTlgVOzmeTwRvefpNkcYAnf4Z-W9KYLnUD4bkdJScB6l6KFcxbSeBkB5BAQ7QerKQE&rf=1&nb=9&adurl=https://canva.com/enterprise/?utm_medium=cpc&utm_source=google_display&utm_campaign=b2b_dg_amer-gen_awareness_pro_cs_canva-enterprise&utm_content=&utm_term=&gclid=EAIaIQobChMIvvOw4dbbkAMVuKdmAh3HFDcqEAEYASAAEgIMffD_BwE
+                - img [ref=f1e8] [cursor=pointer]
+              - generic [ref=f1e10]:
+                - generic [ref=f1e11]:
+                  - link "Canva for Marketing Teams" [ref=f1e14] [cursor=pointer]:
+                    - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CKAqRdpwLab7gErjPmsMPx6nc0QKG352LggHb_dy59RTwLhABIP20npUBYLOQWqAB2JvFrz_IAQmoAwGqBP0BT9CFi4J5bscS7c1uL4gTBdBvVW8t83kEjSb8EVePHOuDlddyJHW-mSYjaX6voQk0SPctlnpwdgKZ2xatYqV6O-o-0xGpuw2HCmxR6_3_4ybvc2g223VRcckBS8McZalZwiwESQnOpxxKT5w-YIk4nwjdkdvQd1NfuYP3cM3jkvyvlp1BdbuN_r0KgLWDIWWaDAImRFgy3gFfT9kZzmIAnE0NBX686PJ3-OhOicr6IXVmhf-KubAG0P2yOFn_yA8oP8A25s_kUK76CSMYXSP4RtutiuHZjwjob2oxx3lQ746fw_ZEX5-y54quA0Ds97853mDnm0dX7dnz9S02ssAEkJjdhrYF4AQDiAWwlI7uVZAGAaAGLoAH2NOVjxqoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliF2LDh1tuQA4AKAZgLAcgLAYAMAaIMCCoGCgTW2LECqg0CQkTqDRMIxd_I4dbbkAMVuKdmAh3HFDcq8A0CiA4JsBOmtZIfyBPOjIPoA9ATANgTCogUCtgUAdAVAcoWAgoA-BYBgBcBshcCGALoFwWyGAkSAqFQGC4iAQDQGQHYGQE&ae=1&num=1&cid=CAQSnwEAwksa0cVgOEDgrDAbWk1SR7zvVSHQQ_FFfhIAlaU9fbq7HW3DgA5bpmX22PuJq-B-PZZfaGXrIbsWL5ET7OJAMQXYVmctzmSLoclfPV8RnBe4dfwk3wGV31hkpBzID8CzkjX9RJmxge29leLjtTA88mliuAcxSUuHdsbzGGFL2_DBUu0xTxnRlFlhJXcna_R_c_kud5Va8Tf9JugciXkYAQ&sig=AOD64_26nNLxlBf1-Cxp6D4PoUbWyd2eQQ&client=ca-pub-1677597403311019&dbm_c=AKAmf-DGMc9Zfa1vDBQVOipI5o_R11LoawIpDLmBPJgqXngRcL9t3FQNGQrRoIjtsYboninC2PZch9AF8MUxTzbljc951cHOt7mtV7QS_vFwOOHewEmg27NlkzMXFwYd_boaX4f_snVKTxHlxTHAu77wI-DD75_haX8VXoBUmL_rQr3hBxBTfLSXmvsyQacP3nqRwRYWvh05IPIBdyx52Fox2eXwap4Pdq6jNFWkM0HYT-1lWLEB-R8H87bk1WAsb72WNHZqshyxeDRa0drcUn37vAtPfs6XqALf54qgZ_f5c500614ihSc&cry=1&dbm_d=AKAmf-Cbwego6P-vba1M0Csyl9wkT1nAPCTRq3jBlMODh9MLu0qPAKkIjV9lsCBgt-Ai1GOp6Uwvg5EbBKCp7pMyyXM3mroyd6LZVRpCrF5cj6UQVoCguuPE_wKy55X3E0xnX3pE__ufdEwXUwlVDg_-3-hGm5vN-uc5v2Ehtzmgar9MiAtkHINUxCFInQoKZ2Br5FPMKCWEpVtX4Rkkn1X4oEbEVKm956pFPIE4oTnyLSpDi20axUHyh4J_P36I58ihgATMBgZ1vAJk5GnZ5ShHzOzx5i1rW6aiceUXAEFb66foo8zVGbIwKUYb4A9oFI85XLqaMMVa_NvadVDe0sSUbpw0NuWBNoEP7drxXOCpXlCLHemRvCTlgVOzmeTwRvefpNkcYAnf4Z-W9KYLnUD4bkdJScB6l6KFcxbSeBkB5BAQ7QerKQE&rf=1&nb=0&adurl=https://canva.com/enterprise/?utm_medium=cpc&utm_source=google_display&utm_campaign=b2b_dg_amer-gen_awareness_pro_cs_canva-enterprise&utm_content=&utm_term=&gclid=EAIaIQobChMIvvOw4dbbkAMVuKdmAh3HFDcqEAEYASAAEgIMffD_BwE
+                    - text: Canva for
+                    - text: Marketing
+                    - text: Teams
+                  - link "Scale your brand and boost collaboration with templates, brand controls, and more." [ref=f1e17] [cursor=pointer]:
+                    - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CKAqRdpwLab7gErjPmsMPx6nc0QKG352LggHb_dy59RTwLhABIP20npUBYLOQWqAB2JvFrz_IAQmoAwGqBP0BT9CFi4J5bscS7c1uL4gTBdBvVW8t83kEjSb8EVePHOuDlddyJHW-mSYjaX6voQk0SPctlnpwdgKZ2xatYqV6O-o-0xGpuw2HCmxR6_3_4ybvc2g223VRcckBS8McZalZwiwESQnOpxxKT5w-YIk4nwjdkdvQd1NfuYP3cM3jkvyvlp1BdbuN_r0KgLWDIWWaDAImRFgy3gFfT9kZzmIAnE0NBX686PJ3-OhOicr6IXVmhf-KubAG0P2yOFn_yA8oP8A25s_kUK76CSMYXSP4RtutiuHZjwjob2oxx3lQ746fw_ZEX5-y54quA0Ds97853mDnm0dX7dnz9S02ssAEkJjdhrYF4AQDiAWwlI7uVZAGAaAGLoAH2NOVjxqoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliF2LDh1tuQA4AKAZgLAcgLAYAMAaIMCCoGCgTW2LECqg0CQkTqDRMIxd_I4dbbkAMVuKdmAh3HFDcq8A0CiA4JsBOmtZIfyBPOjIPoA9ATANgTCogUCtgUAdAVAcoWAgoA-BYBgBcBshcCGALoFwWyGAkSAqFQGC4iAQDQGQHYGQE&ae=1&num=1&cid=CAQSnwEAwksa0cVgOEDgrDAbWk1SR7zvVSHQQ_FFfhIAlaU9fbq7HW3DgA5bpmX22PuJq-B-PZZfaGXrIbsWL5ET7OJAMQXYVmctzmSLoclfPV8RnBe4dfwk3wGV31hkpBzID8CzkjX9RJmxge29leLjtTA88mliuAcxSUuHdsbzGGFL2_DBUu0xTxnRlFlhJXcna_R_c_kud5Va8Tf9JugciXkYAQ&sig=AOD64_26nNLxlBf1-Cxp6D4PoUbWyd2eQQ&client=ca-pub-1677597403311019&dbm_c=AKAmf-DGMc9Zfa1vDBQVOipI5o_R11LoawIpDLmBPJgqXngRcL9t3FQNGQrRoIjtsYboninC2PZch9AF8MUxTzbljc951cHOt7mtV7QS_vFwOOHewEmg27NlkzMXFwYd_boaX4f_snVKTxHlxTHAu77wI-DD75_haX8VXoBUmL_rQr3hBxBTfLSXmvsyQacP3nqRwRYWvh05IPIBdyx52Fox2eXwap4Pdq6jNFWkM0HYT-1lWLEB-R8H87bk1WAsb72WNHZqshyxeDRa0drcUn37vAtPfs6XqALf54qgZ_f5c500614ihSc&cry=1&dbm_d=AKAmf-Cbwego6P-vba1M0Csyl9wkT1nAPCTRq3jBlMODh9MLu0qPAKkIjV9lsCBgt-Ai1GOp6Uwvg5EbBKCp7pMyyXM3mroyd6LZVRpCrF5cj6UQVoCguuPE_wKy55X3E0xnX3pE__ufdEwXUwlVDg_-3-hGm5vN-uc5v2Ehtzmgar9MiAtkHINUxCFInQoKZ2Br5FPMKCWEpVtX4Rkkn1X4oEbEVKm956pFPIE4oTnyLSpDi20axUHyh4J_P36I58ihgATMBgZ1vAJk5GnZ5ShHzOzx5i1rW6aiceUXAEFb66foo8zVGbIwKUYb4A9oFI85XLqaMMVa_NvadVDe0sSUbpw0NuWBNoEP7drxXOCpXlCLHemRvCTlgVOzmeTwRvefpNkcYAnf4Z-W9KYLnUD4bkdJScB6l6KFcxbSeBkB5BAQ7QerKQE&rf=1&nb=7&adurl=https://canva.com/enterprise/?utm_medium=cpc&utm_source=google_display&utm_campaign=b2b_dg_amer-gen_awareness_pro_cs_canva-enterprise&utm_content=&utm_term=&gclid=EAIaIQobChMIvvOw4dbbkAMVuKdmAh3HFDcqEAEYASAAEgIMffD_BwE
+                    - text: Scale your brand and
+                    - text: boost collaboration
+                    - text: with templates,
+                    - text: brand controls, and
+                    - text: more.
+                  - link "Canva" [ref=f1e21] [cursor=pointer]:
+                    - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CKAqRdpwLab7gErjPmsMPx6nc0QKG352LggHb_dy59RTwLhABIP20npUBYLOQWqAB2JvFrz_IAQmoAwGqBP0BT9CFi4J5bscS7c1uL4gTBdBvVW8t83kEjSb8EVePHOuDlddyJHW-mSYjaX6voQk0SPctlnpwdgKZ2xatYqV6O-o-0xGpuw2HCmxR6_3_4ybvc2g223VRcckBS8McZalZwiwESQnOpxxKT5w-YIk4nwjdkdvQd1NfuYP3cM3jkvyvlp1BdbuN_r0KgLWDIWWaDAImRFgy3gFfT9kZzmIAnE0NBX686PJ3-OhOicr6IXVmhf-KubAG0P2yOFn_yA8oP8A25s_kUK76CSMYXSP4RtutiuHZjwjob2oxx3lQ746fw_ZEX5-y54quA0Ds97853mDnm0dX7dnz9S02ssAEkJjdhrYF4AQDiAWwlI7uVZAGAaAGLoAH2NOVjxqoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliF2LDh1tuQA4AKAZgLAcgLAYAMAaIMCCoGCgTW2LECqg0CQkTqDRMIxd_I4dbbkAMVuKdmAh3HFDcq8A0CiA4JsBOmtZIfyBPOjIPoA9ATANgTCogUCtgUAdAVAcoWAgoA-BYBgBcBshcCGALoFwWyGAkSAqFQGC4iAQDQGQHYGQE&ae=1&num=1&cid=CAQSnwEAwksa0cVgOEDgrDAbWk1SR7zvVSHQQ_FFfhIAlaU9fbq7HW3DgA5bpmX22PuJq-B-PZZfaGXrIbsWL5ET7OJAMQXYVmctzmSLoclfPV8RnBe4dfwk3wGV31hkpBzID8CzkjX9RJmxge29leLjtTA88mliuAcxSUuHdsbzGGFL2_DBUu0xTxnRlFlhJXcna_R_c_kud5Va8Tf9JugciXkYAQ&sig=AOD64_26nNLxlBf1-Cxp6D4PoUbWyd2eQQ&client=ca-pub-1677597403311019&dbm_c=AKAmf-DGMc9Zfa1vDBQVOipI5o_R11LoawIpDLmBPJgqXngRcL9t3FQNGQrRoIjtsYboninC2PZch9AF8MUxTzbljc951cHOt7mtV7QS_vFwOOHewEmg27NlkzMXFwYd_boaX4f_snVKTxHlxTHAu77wI-DD75_haX8VXoBUmL_rQr3hBxBTfLSXmvsyQacP3nqRwRYWvh05IPIBdyx52Fox2eXwap4Pdq6jNFWkM0HYT-1lWLEB-R8H87bk1WAsb72WNHZqshyxeDRa0drcUn37vAtPfs6XqALf54qgZ_f5c500614ihSc&cry=1&dbm_d=AKAmf-Cbwego6P-vba1M0Csyl9wkT1nAPCTRq3jBlMODh9MLu0qPAKkIjV9lsCBgt-Ai1GOp6Uwvg5EbBKCp7pMyyXM3mroyd6LZVRpCrF5cj6UQVoCguuPE_wKy55X3E0xnX3pE__ufdEwXUwlVDg_-3-hGm5vN-uc5v2Ehtzmgar9MiAtkHINUxCFInQoKZ2Br5FPMKCWEpVtX4Rkkn1X4oEbEVKm956pFPIE4oTnyLSpDi20axUHyh4J_P36I58ihgATMBgZ1vAJk5GnZ5ShHzOzx5i1rW6aiceUXAEFb66foo8zVGbIwKUYb4A9oFI85XLqaMMVa_NvadVDe0sSUbpw0NuWBNoEP7drxXOCpXlCLHemRvCTlgVOzmeTwRvefpNkcYAnf4Z-W9KYLnUD4bkdJScB6l6KFcxbSeBkB5BAQ7QerKQE&rf=1&nb=1&adurl=https://canva.com/enterprise/?utm_medium=cpc&utm_source=google_display&utm_campaign=b2b_dg_amer-gen_awareness_pro_cs_canva-enterprise&utm_content=&utm_term=&gclid=EAIaIQobChMIvvOw4dbbkAMVuKdmAh3HFDcqEAEYASAAEgIMffD_BwE
+                - generic [ref=f1e24]:
+                  - link:
+                    - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CKAqRdpwLab7gErjPmsMPx6nc0QKG352LggHb_dy59RTwLhABIP20npUBYLOQWqAB2JvFrz_IAQmoAwGqBP0BT9CFi4J5bscS7c1uL4gTBdBvVW8t83kEjSb8EVePHOuDlddyJHW-mSYjaX6voQk0SPctlnpwdgKZ2xatYqV6O-o-0xGpuw2HCmxR6_3_4ybvc2g223VRcckBS8McZalZwiwESQnOpxxKT5w-YIk4nwjdkdvQd1NfuYP3cM3jkvyvlp1BdbuN_r0KgLWDIWWaDAImRFgy3gFfT9kZzmIAnE0NBX686PJ3-OhOicr6IXVmhf-KubAG0P2yOFn_yA8oP8A25s_kUK76CSMYXSP4RtutiuHZjwjob2oxx3lQ746fw_ZEX5-y54quA0Ds97853mDnm0dX7dnz9S02ssAEkJjdhrYF4AQDiAWwlI7uVZAGAaAGLoAH2NOVjxqoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliF2LDh1tuQA4AKAZgLAcgLAYAMAaIMCCoGCgTW2LECqg0CQkTqDRMIxd_I4dbbkAMVuKdmAh3HFDcq8A0CiA4JsBOmtZIfyBPOjIPoA9ATANgTCogUCtgUAdAVAcoWAgoA-BYBgBcBshcCGALoFwWyGAkSAqFQGC4iAQDQGQHYGQE&ae=1&num=1&cid=CAQSnwEAwksa0cVgOEDgrDAbWk1SR7zvVSHQQ_FFfhIAlaU9fbq7HW3DgA5bpmX22PuJq-B-PZZfaGXrIbsWL5ET7OJAMQXYVmctzmSLoclfPV8RnBe4dfwk3wGV31hkpBzID8CzkjX9RJmxge29leLjtTA88mliuAcxSUuHdsbzGGFL2_DBUu0xTxnRlFlhJXcna_R_c_kud5Va8Tf9JugciXkYAQ&sig=AOD64_26nNLxlBf1-Cxp6D4PoUbWyd2eQQ&client=ca-pub-1677597403311019&dbm_c=AKAmf-DGMc9Zfa1vDBQVOipI5o_R11LoawIpDLmBPJgqXngRcL9t3FQNGQrRoIjtsYboninC2PZch9AF8MUxTzbljc951cHOt7mtV7QS_vFwOOHewEmg27NlkzMXFwYd_boaX4f_snVKTxHlxTHAu77wI-DD75_haX8VXoBUmL_rQr3hBxBTfLSXmvsyQacP3nqRwRYWvh05IPIBdyx52Fox2eXwap4Pdq6jNFWkM0HYT-1lWLEB-R8H87bk1WAsb72WNHZqshyxeDRa0drcUn37vAtPfs6XqALf54qgZ_f5c500614ihSc&cry=1&dbm_d=AKAmf-Cbwego6P-vba1M0Csyl9wkT1nAPCTRq3jBlMODh9MLu0qPAKkIjV9lsCBgt-Ai1GOp6Uwvg5EbBKCp7pMyyXM3mroyd6LZVRpCrF5cj6UQVoCguuPE_wKy55X3E0xnX3pE__ufdEwXUwlVDg_-3-hGm5vN-uc5v2Ehtzmgar9MiAtkHINUxCFInQoKZ2Br5FPMKCWEpVtX4Rkkn1X4oEbEVKm956pFPIE4oTnyLSpDi20axUHyh4J_P36I58ihgATMBgZ1vAJk5GnZ5ShHzOzx5i1rW6aiceUXAEFb66foo8zVGbIwKUYb4A9oFI85XLqaMMVa_NvadVDe0sSUbpw0NuWBNoEP7drxXOCpXlCLHemRvCTlgVOzmeTwRvefpNkcYAnf4Z-W9KYLnUD4bkdJScB6l6KFcxbSeBkB5BAQ7QerKQE&rf=1&nb=8&adurl=https://canva.com/enterprise/?utm_medium=cpc&utm_source=google_display&utm_campaign=b2b_dg_amer-gen_awareness_pro_cs_canva-enterprise&utm_content=&utm_term=&gclid=EAIaIQobChMIvvOw4dbbkAMVuKdmAh3HFDcqEAEYASAAEgIMffD_BwE
+                  - link "Learn More" [ref=f1e26] [cursor=pointer]:
+                    - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CKAqRdpwLab7gErjPmsMPx6nc0QKG352LggHb_dy59RTwLhABIP20npUBYLOQWqAB2JvFrz_IAQmoAwGqBP0BT9CFi4J5bscS7c1uL4gTBdBvVW8t83kEjSb8EVePHOuDlddyJHW-mSYjaX6voQk0SPctlnpwdgKZ2xatYqV6O-o-0xGpuw2HCmxR6_3_4ybvc2g223VRcckBS8McZalZwiwESQnOpxxKT5w-YIk4nwjdkdvQd1NfuYP3cM3jkvyvlp1BdbuN_r0KgLWDIWWaDAImRFgy3gFfT9kZzmIAnE0NBX686PJ3-OhOicr6IXVmhf-KubAG0P2yOFn_yA8oP8A25s_kUK76CSMYXSP4RtutiuHZjwjob2oxx3lQ746fw_ZEX5-y54quA0Ds97853mDnm0dX7dnz9S02ssAEkJjdhrYF4AQDiAWwlI7uVZAGAaAGLoAH2NOVjxqoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliF2LDh1tuQA4AKAZgLAcgLAYAMAaIMCCoGCgTW2LECqg0CQkTqDRMIxd_I4dbbkAMVuKdmAh3HFDcq8A0CiA4JsBOmtZIfyBPOjIPoA9ATANgTCogUCtgUAdAVAcoWAgoA-BYBgBcBshcCGALoFwWyGAkSAqFQGC4iAQDQGQHYGQE&ae=1&num=1&cid=CAQSnwEAwksa0cVgOEDgrDAbWk1SR7zvVSHQQ_FFfhIAlaU9fbq7HW3DgA5bpmX22PuJq-B-PZZfaGXrIbsWL5ET7OJAMQXYVmctzmSLoclfPV8RnBe4dfwk3wGV31hkpBzID8CzkjX9RJmxge29leLjtTA88mliuAcxSUuHdsbzGGFL2_DBUu0xTxnRlFlhJXcna_R_c_kud5Va8Tf9JugciXkYAQ&sig=AOD64_26nNLxlBf1-Cxp6D4PoUbWyd2eQQ&client=ca-pub-1677597403311019&dbm_c=AKAmf-DGMc9Zfa1vDBQVOipI5o_R11LoawIpDLmBPJgqXngRcL9t3FQNGQrRoIjtsYboninC2PZch9AF8MUxTzbljc951cHOt7mtV7QS_vFwOOHewEmg27NlkzMXFwYd_boaX4f_snVKTxHlxTHAu77wI-DD75_haX8VXoBUmL_rQr3hBxBTfLSXmvsyQacP3nqRwRYWvh05IPIBdyx52Fox2eXwap4Pdq6jNFWkM0HYT-1lWLEB-R8H87bk1WAsb72WNHZqshyxeDRa0drcUn37vAtPfs6XqALf54qgZ_f5c500614ihSc&cry=1&dbm_d=AKAmf-Cbwego6P-vba1M0Csyl9wkT1nAPCTRq3jBlMODh9MLu0qPAKkIjV9lsCBgt-Ai1GOp6Uwvg5EbBKCp7pMyyXM3mroyd6LZVRpCrF5cj6UQVoCguuPE_wKy55X3E0xnX3pE__ufdEwXUwlVDg_-3-hGm5vN-uc5v2Ehtzmgar9MiAtkHINUxCFInQoKZ2Br5FPMKCWEpVtX4Rkkn1X4oEbEVKm956pFPIE4oTnyLSpDi20axUHyh4J_P36I58ihgATMBgZ1vAJk5GnZ5ShHzOzx5i1rW6aiceUXAEFb66foo8zVGbIwKUYb4A9oFI85XLqaMMVa_NvadVDe0sSUbpw0NuWBNoEP7drxXOCpXlCLHemRvCTlgVOzmeTwRvefpNkcYAnf4Z-W9KYLnUD4bkdJScB6l6KFcxbSeBkB5BAQ7QerKQE&rf=1&nb=8&adurl=https://canva.com/enterprise/?utm_medium=cpc&utm_source=google_display&utm_campaign=b2b_dg_amer-gen_awareness_pro_cs_canva-enterprise&utm_content=&utm_term=&gclid=EAIaIQobChMIvvOw4dbbkAMVuKdmAh3HFDcqEAEYASAAEgIMffD_BwE
+                  - link [ref=f1e27] [cursor=pointer]:
+                    - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CKAqRdpwLab7gErjPmsMPx6nc0QKG352LggHb_dy59RTwLhABIP20npUBYLOQWqAB2JvFrz_IAQmoAwGqBP0BT9CFi4J5bscS7c1uL4gTBdBvVW8t83kEjSb8EVePHOuDlddyJHW-mSYjaX6voQk0SPctlnpwdgKZ2xatYqV6O-o-0xGpuw2HCmxR6_3_4ybvc2g223VRcckBS8McZalZwiwESQnOpxxKT5w-YIk4nwjdkdvQd1NfuYP3cM3jkvyvlp1BdbuN_r0KgLWDIWWaDAImRFgy3gFfT9kZzmIAnE0NBX686PJ3-OhOicr6IXVmhf-KubAG0P2yOFn_yA8oP8A25s_kUK76CSMYXSP4RtutiuHZjwjob2oxx3lQ746fw_ZEX5-y54quA0Ds97853mDnm0dX7dnz9S02ssAEkJjdhrYF4AQDiAWwlI7uVZAGAaAGLoAH2NOVjxqoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliF2LDh1tuQA4AKAZgLAcgLAYAMAaIMCCoGCgTW2LECqg0CQkTqDRMIxd_I4dbbkAMVuKdmAh3HFDcq8A0CiA4JsBOmtZIfyBPOjIPoA9ATANgTCogUCtgUAdAVAcoWAgoA-BYBgBcBshcCGALoFwWyGAkSAqFQGC4iAQDQGQHYGQE&ae=1&num=1&cid=CAQSnwEAwksa0cVgOEDgrDAbWk1SR7zvVSHQQ_FFfhIAlaU9fbq7HW3DgA5bpmX22PuJq-B-PZZfaGXrIbsWL5ET7OJAMQXYVmctzmSLoclfPV8RnBe4dfwk3wGV31hkpBzID8CzkjX9RJmxge29leLjtTA88mliuAcxSUuHdsbzGGFL2_DBUu0xTxnRlFlhJXcna_R_c_kud5Va8Tf9JugciXkYAQ&sig=AOD64_26nNLxlBf1-Cxp6D4PoUbWyd2eQQ&client=ca-pub-1677597403311019&dbm_c=AKAmf-DGMc9Zfa1vDBQVOipI5o_R11LoawIpDLmBPJgqXngRcL9t3FQNGQrRoIjtsYboninC2PZch9AF8MUxTzbljc951cHOt7mtV7QS_vFwOOHewEmg27NlkzMXFwYd_boaX4f_snVKTxHlxTHAu77wI-DD75_haX8VXoBUmL_rQr3hBxBTfLSXmvsyQacP3nqRwRYWvh05IPIBdyx52Fox2eXwap4Pdq6jNFWkM0HYT-1lWLEB-R8H87bk1WAsb72WNHZqshyxeDRa0drcUn37vAtPfs6XqALf54qgZ_f5c500614ihSc&cry=1&dbm_d=AKAmf-Cbwego6P-vba1M0Csyl9wkT1nAPCTRq3jBlMODh9MLu0qPAKkIjV9lsCBgt-Ai1GOp6Uwvg5EbBKCp7pMyyXM3mroyd6LZVRpCrF5cj6UQVoCguuPE_wKy55X3E0xnX3pE__ufdEwXUwlVDg_-3-hGm5vN-uc5v2Ehtzmgar9MiAtkHINUxCFInQoKZ2Br5FPMKCWEpVtX4Rkkn1X4oEbEVKm956pFPIE4oTnyLSpDi20axUHyh4J_P36I58ihgATMBgZ1vAJk5GnZ5ShHzOzx5i1rW6aiceUXAEFb66foo8zVGbIwKUYb4A9oFI85XLqaMMVa_NvadVDe0sSUbpw0NuWBNoEP7drxXOCpXlCLHemRvCTlgVOzmeTwRvefpNkcYAnf4Z-W9KYLnUD4bkdJScB6l6KFcxbSeBkB5BAQ7QerKQE&rf=1&nb=8&adurl=https://canva.com/enterprise/?utm_medium=cpc&utm_source=google_display&utm_campaign=b2b_dg_amer-gen_awareness_pro_cs_canva-enterprise&utm_content=&utm_term=&gclid=EAIaIQobChMIvvOw4dbbkAMVuKdmAh3HFDcqEAEYASAAEgIMffD_BwE
+                    - generic [ref=f1e28] [cursor=pointer]:
+                      - img [ref=f1e29] [cursor=pointer]
+                      - img [ref=f1e31] [cursor=pointer]
+            - img [ref=f1e39] [cursor=pointer]
+            - button [ref=f1e41] [cursor=pointer]:
+              - img [ref=f1e42] [cursor=pointer]
+      - generic [ref=e79]:
+        - heading "Brands" [level=2] [ref=e80]
+        - list [ref=e82]:
+          - listitem [ref=e83]:
+            - link "(6) Polo" [ref=e84] [cursor=pointer]:
+              - /url: /brand_products/Polo
+              - generic [ref=e85] [cursor=pointer]: (6)
+              - text: Polo
+          - listitem [ref=e86]:
+            - link "(5) H&M" [ref=e87] [cursor=pointer]:
+              - /url: /brand_products/H&M
+              - generic [ref=e88] [cursor=pointer]: (5)
+              - text: H&M
+          - listitem [ref=e89]:
+            - link "(5) Madame" [ref=e90] [cursor=pointer]:
+              - /url: /brand_products/Madame
+              - generic [ref=e91] [cursor=pointer]: (5)
+              - text: Madame
+          - listitem [ref=e92]:
+            - link "(3) Mast & Harbour" [ref=e93] [cursor=pointer]:
+              - /url: /brand_products/Mast & Harbour
+              - generic [ref=e94] [cursor=pointer]: (3)
+              - text: Mast & Harbour
+          - listitem [ref=e95]:
+            - link "(4) Babyhug" [ref=e96] [cursor=pointer]:
+              - /url: /brand_products/Babyhug
+              - generic [ref=e97] [cursor=pointer]: (4)
+              - text: Babyhug
+          - listitem [ref=e98]:
+            - link "(3) Allen Solly Junior" [ref=e99] [cursor=pointer]:
+              - /url: /brand_products/Allen Solly Junior
+              - generic [ref=e100] [cursor=pointer]: (3)
+              - text: Allen Solly Junior
+          - listitem [ref=e101]:
+            - link "(3) Kookie Kids" [ref=e102] [cursor=pointer]:
+              - /url: /brand_products/Kookie Kids
+              - generic [ref=e103] [cursor=pointer]: (3)
+              - text: Kookie Kids
+          - listitem [ref=e104]:
+            - link "(5) Biba" [ref=e105] [cursor=pointer]:
+              - /url: /brand_products/Biba
+              - generic [ref=e106] [cursor=pointer]: (5)
+              - text: Biba
+    - generic [ref=e108]:
+      - heading "Searched Products" [level=2] [ref=e109]
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - img "ecommerce website products" [ref=e114]
+            - heading "Rs. 1500" [level=2] [ref=e115]
+            - paragraph [ref=e116]: Stylish Dress
+            - generic [ref=e117] [cursor=pointer]:
+              - generic [ref=e118] [cursor=pointer]: 
+              - text: Add to cart
+          - generic [ref=e119]:
+            - heading "Rs. 1500" [level=2] [ref=e120]
+            - paragraph [ref=e121]: Stylish Dress
+            - generic [ref=e122] [cursor=pointer]:
+              - generic [ref=e123] [cursor=pointer]: 
+              - text: Add to cart
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - link " View Product" [ref=e127] [cursor=pointer]:
+              - /url: /product_details/4
+              - generic [ref=e128] [cursor=pointer]: 
+              - text: View Product
+  - contentinfo [ref=e129]:
+    - generic [ref=e134]:
+      - heading "Subscription" [level=2] [ref=e135]
+      - generic [ref=e136]:
+        - textbox "Your email address" [ref=e137]
+        - button "" [ref=e138] [cursor=pointer]:
+          - generic [ref=e139] [cursor=pointer]: 
+        - paragraph [ref=e140]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e144]: Copyright © 2021 All rights reserved
+  - text: 
+  - generic:
+    - insertion:
+      - generic:
+        - iframe
+  - insertion [ref=e145]:
+    - iframe [ref=e148]:
+      - iframe [ref=f2e1]:
+        - generic [ref=f3e2]:
+          - link "Advertisement" [ref=f3e4] [cursor=pointer]:
+            - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjstSaEk5wh1hcL0Dbf-BRtP2BWxN4M964du18-U_DZ7ODG8FHeAtzEUUa7OYhMb8GxOQP9PY8q0MwsQc_dkfSx0_owT7G5-1vpY6o9skQbumqACUlQjOdf1SeRZO2xkYtPzC0It9dY1XmPK-M2kZQtFL4JwUbPh-_38-bLrivMdUq54fdMzxvqwN7c0AI3yWmAA12IYlWCXF0rxe0mLUC9UJFUKY0uMIO7rMcQT_Ru4ZouZCkGgYoBJWzqerkXwfpbXv5_4EutMjG659ImdkcboQBDNowTNHegl2aFzMb1nhbTqPRLRnJqYu9JUWl2YmfwFZiMuDH2jV4wGY4pe1sCUtE3blR0-TQ_wpcGyMcGa5Z-Pw8JI2Thkochf18mlZ5D98FPbxxGLNkmRxd6U3x_BzCD6wHFPvfY6PJ1lnrvnLsjaFCFCK1Z0-TscZnzQ4OI6l_yQ5k-1qDSYoaJqJxOF7yFNzlrSxWACyPSGrIqZUkt7IbbbwLzOLPj9_Ok5x3vO7oZ8lptaK_Un12nnByUUelMbDnMQZcWncWI1pmSKZRvyhd0D98C1bSZTw1panVAZqU7Vibmnl8dFvbHFm1mFZ97mBIOtFV52uRHBw3bnKEgsSYshAUjkDbyixetctbD60JlUkpxTVjZKkx2hLtseIz80zFNa5cGhmjaJuDGXmEvvkTkDmdmgiZt1CDjaVOor5xlbR71vinp8uFsIHJugYtAtUzGHz8reUJ68vkCR_vSi_P5LhO7nL0CH8lPhIU-lPRw8HQ2CwOr7TH7LAlrM6KJGMrXoG9LRr5hAGQBRsMPIDS8WqUIIbHEWlfCr9GxD3btkXTxGoftiKRN7PFmGjUoLOQe9CsclO_rEmAlAzarD7NXti_frQOIlBBrmN3W8hWJ8EzlnHxVN7a8ZEuHrdVgvh8EjspEnlWr_MjASeZRbJnY37KMVnhp03bvAiATrRGZpZg1rvqeZCvXw48HyoXNkyQzmdi5A9lvfZZilgxSekuy8Z68nJJol5sp-Xbt7ptfZ7xwRmoBzg69SxB8O8B_lTbK0pAgt2IB2m23RHOC_gKYMUy3hXRdiMsmcfpdTccRIaid_ViNpXI3a0XuJ7sNgVtdjLrntYbISIxTbya0RdonLaYojjqHQ2wPz5zI-ge3yzJ3jUCStkMf213rc4K7w5Cgz4S-g6WBiqNWW6DpE3zMEhUSVZDQDppClV0JrZMsYlpXBqfNzdrzfTv8UosEhdUKDUuSvI1lSAOPqOcHYzIbryDsjI8nwgBBrWz0ekkoT6eJrPjaHTMcS-DVWp1dvc_oi7iTObFR25Jt4_FdBlFE_KRfDf3Sv3U2nllRr0GUxm2eCzsz1TBsT5TJYeqpWt2xTSLyDVvD3L8ix7d5B7xBXPIj0XinkydEBuOn60aqelSeUL-BncS10sogeyuKFejZe7KmqnqMBSkvtv0BhBeAcOmQQN0xLaiUqdBVShYEdqAEiBGBzrArst5Mu85axmsOyliHPzqIk_GwInHjaDTG_UNz7OolJ6kQlGNpnGDRgPur6DWiqlqDvSHRh2IkDqQjNhLeewO7-v65Kqw8eDQ4_RSVR4XjlomWLI7C53GBe2GK5oDJvGAVCMMfh4K7qzighpVxdhuqrpVOA6AwEhmNJz_0PQUHIRBKmkMRKV-LjROI1l3E-yIP1qSc7UsNQG4k8yzbioG610waGIzAEJh58lv7i3MZbuTM556KUMBXNh4nTNyGhIOox0KhZo8qz_cwfSqKORFKXXIf9Z2Kpzp99MpklwBBsqCYVrbtm7inJ6&sai=AMfl-YSp9r5rJrAOLRPEVpodeNaIk3PvdPBlMlNUpbu1yRB8A3j4zh3nO6GRz2Xq8v0Iws8z89T8ogtRnjZ8TrfrOSBBE8qfQt4Gv321-NDNZ7YsNHKKbImqEpd7VTkQYnUggC_yL3vBvXv80YO5uIMtEGyCcpM7OH2Mv7KWb9Fp8ISpSLLA7cAPYGLxuz_PiebOzgx1Zaa63APFyEBsnHfV8Y3B2v4orlleEWEsx2WzrG1QVrsBZMq4VNCjlLdjiIBTwWofoapQVC4vCnDtsHCujE2KHbJ4VWMMmpnWboyVsDOGD1q2k54alNkF_jAfmBgqVtg6hO35zTmrQcx3G3o44zn68OdzT9xXmjumNxhbnm6t9m5XdHnsjOQMRZCEZ1FIUeBq60aVIFKYw5u2l_FqkqD1UOvlYHC26HZZaRrg_YCMS_Giubwu_h9nFisQJVCw275QuWk8zjcVzunqDsYbROXJUQHsoULRhvSc30F7PdNtwIQNanQ7-MrGqz2F7DoSTMkH2sbZUrj887qXcE4PxY1EBK1VZdY2texqpH_Zew5DOz0xSggG-58kfp5xQmn-bEKkuYAR6d4P06fVVOKrRAu7XkCklA&sig=Cg0ArKJSzECGsIHfYUGa&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9icml0aXNoY291bmNpbC5vcmcuYmQ&urlfix=1&adurl=https://www.britishcouncil.org.bd/en/ielts-ready-premium%3Futm_source%3Ddv360%26utm_medium%3Ddisplay%26utm_campaign%3Dexams-all-all-sa-bd-dv360-pt-conversion-do_ioc_preparation_irp-display-728x90%26utm_content%3Dcontent%26utm_term%3Dterm%26dclid%3D%25edclid!%26gad_source%3D7
+            - img "Advertisement" [ref=f3e5] [cursor=pointer]
+          - generic [ref=f3e6]:
+            - generic:
+              - img [ref=f3e10] [cursor=pointer]
+              - button [ref=f3e12] [cursor=pointer]:
+                - img [ref=f3e13] [cursor=pointer]
+```

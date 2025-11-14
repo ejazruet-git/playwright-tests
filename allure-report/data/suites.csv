@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","14798","Login using saved credentials","chromium","Wed Nov 05 23:17:05 BDT 2025","passed","Wed Nov 05 23:17:20 BDT 2025","","CreateAccount.spec.js","",""
+"","2088","Create New User sending post requestaccount","chromium","Wed Nov 05 23:17:05 BDT 2025","passed","Wed Nov 05 23:17:07 BDT 2025","","CreateAccount.spec.js","",""
+"","1276","Click on specific link","chromium","Wed Nov 05 16:40:01 BDT 2025","failed","Wed Nov 05 16:40:03 BDT 2025","","pageobjecttest.spec.js","",""
+"","11496","Page Object Model in Playwright","chromium","Wed Nov 05 16:40:01 BDT 2025","passed","Wed Nov 05 16:40:13 BDT 2025","","pageobjecttest.spec.js","",""
+"","33549","Add product to cart","chromium","Wed Nov 05 23:17:07 BDT 2025","broken","Wed Nov 05 23:17:41 BDT 2025","","CreateAccount.spec.js","",""

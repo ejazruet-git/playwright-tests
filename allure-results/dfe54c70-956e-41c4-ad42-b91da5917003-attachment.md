@@ -1,0 +1,86 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9] [cursor=pointer]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15] [cursor=pointer]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18] [cursor=pointer]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21] [cursor=pointer]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Logout" [ref=e23] [cursor=pointer]:
+            - /url: /logout
+            - generic [ref=e24] [cursor=pointer]: 
+            - text: Logout
+        - listitem [ref=e25]:
+          - link " Delete Account" [ref=e26] [cursor=pointer]:
+            - /url: /delete_account
+            - generic [ref=e27] [cursor=pointer]: 
+            - text: Delete Account
+        - listitem [ref=e28]:
+          - link " Test Cases" [ref=e29] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e30] [cursor=pointer]: 
+            - text: Test Cases
+        - listitem [ref=e31]:
+          - link " API Testing" [ref=e32] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e33] [cursor=pointer]: 
+            - text: API Testing
+        - listitem [ref=e34]:
+          - link " Video Tutorials" [ref=e35] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e36] [cursor=pointer]: 
+            - text: Video Tutorials
+        - listitem [ref=e37]:
+          - link " Contact us" [ref=e38] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e39] [cursor=pointer]: 
+            - text: Contact us
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 
+            - text: Logged in as
+            - generic [ref=e43]: Test User
+  - generic [ref=e45]:
+    - list [ref=e47]:
+      - listitem [ref=e48]:
+        - link "Home" [ref=e49] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e50]: Shopping Cart
+    - paragraph [ref=e53]:
+      - generic [ref=e54]: Cart is empty!
+      - text: Click
+      - link "here" [ref=e55] [cursor=pointer]:
+        - /url: /products
+        - generic [ref=e56] [cursor=pointer]: here
+      - text: to buy products.
+  - contentinfo [ref=e57]:
+    - generic [ref=e62]:
+      - heading "Subscription" [level=2] [ref=e63]
+      - generic [ref=e64]:
+        - textbox "Your email address" [ref=e65]
+        - button "" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67] [cursor=pointer]: 
+        - paragraph [ref=e68]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e72]: Copyright © 2021 All rights reserved
+  - text: 
+```

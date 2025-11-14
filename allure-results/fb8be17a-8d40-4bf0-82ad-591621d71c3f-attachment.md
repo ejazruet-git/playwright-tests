@@ -1,0 +1,927 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [active] [ref=e9] [cursor=pointer]:
+            - generic [ref=e12] [cursor=pointer]:
+              - img
+          - generic [ref=e13]:
+            - link "YouTube Home" [ref=e14] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e19] [cursor=pointer]:
+                - img
+            - generic [ref=e20]: BD
+          - button "Skip navigation" [ref=e24] [cursor=pointer]:
+            - generic [ref=e26] [cursor=pointer]: Skip navigation
+        - generic [ref=e30]:
+          - search [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Search" [expanded] [ref=e34]: playwright by testers talk
+              - button "Clear search query" [ref=e36] [cursor=pointer]:
+                - generic [ref=e39] [cursor=pointer]:
+                  - img
+            - button "Search" [ref=e43] [cursor=pointer]:
+              - generic [ref=e46] [cursor=pointer]:
+                - img
+          - generic [ref=e48]:
+            - button "Search with your voice" [ref=e50] [cursor=pointer]:
+              - generic [ref=e54] [cursor=pointer]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e59]:
+          - button "Settings" [ref=e64] [cursor=pointer]:
+            - generic [ref=e67] [cursor=pointer]:
+              - img
+          - link "Sign in" [ref=e70] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dplaywright%252Bby%252Btesters%252Btalk&hl=en&ec=65620
+            - generic [ref=e74] [cursor=pointer]:
+              - img
+            - generic [ref=e76] [cursor=pointer]: Sign in
+    - navigation [ref=e80]:
+      - generic [ref=e81]:
+        - link "Home" [ref=e83] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e86] [cursor=pointer]:
+            - img
+          - generic [ref=e87] [cursor=pointer]: Home
+        - link "Shorts" [ref=e89] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e92] [cursor=pointer]:
+            - img
+          - generic [ref=e93] [cursor=pointer]: Shorts
+        - link "Subscriptions" [ref=e95] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e98] [cursor=pointer]:
+            - img
+          - generic [ref=e99] [cursor=pointer]: Subscriptions
+        - link "You" [ref=e101] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e104] [cursor=pointer]:
+            - img
+          - generic [ref=e105] [cursor=pointer]: You
+        - link "History" [ref=e107] [cursor=pointer]:
+          - /url: /feed/history
+          - generic [ref=e110] [cursor=pointer]:
+            - img
+          - generic [ref=e111] [cursor=pointer]: History
+    - generic [ref=e112]:
+      - text: •
+      - main [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e116]:
+            - tablist [ref=e121]:
+              - tab "All" [selected] [ref=e125] [cursor=pointer]:
+                - generic [ref=e126] [cursor=pointer]: All
+              - tab "Shorts" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134] [cursor=pointer]: Shorts
+              - tab "Videos" [ref=e141] [cursor=pointer]:
+                - generic [ref=e142] [cursor=pointer]: Videos
+              - tab "Unwatched" [ref=e149] [cursor=pointer]:
+                - generic [ref=e150] [cursor=pointer]: Unwatched
+              - tab "Watched" [ref=e157] [cursor=pointer]:
+                - generic [ref=e158] [cursor=pointer]: Watched
+              - tab "Recently uploaded" [ref=e165] [cursor=pointer]:
+                - generic [ref=e166] [cursor=pointer]: Recently uploaded
+              - tab "Live" [ref=e173] [cursor=pointer]:
+                - generic [ref=e174] [cursor=pointer]: Live
+              - tab "Playlists" [ref=e181] [cursor=pointer]:
+                - generic [ref=e182] [cursor=pointer]: Playlists
+            - generic [ref=e187]:
+              - button "Search filters" [ref=e189] [cursor=pointer]:
+                - generic [ref=e191] [cursor=pointer]: Filters
+                - generic [ref=e195] [cursor=pointer]:
+                  - img
+              - tooltip "tooltip"
+          - generic [ref=e204]:
+            - generic [ref=e206] [cursor=pointer]:
+              - link [ref=e207] [cursor=pointer]:
+                - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                - generic [ref=e217] [cursor=pointer]:
+                  - generic [ref=e220] [cursor=pointer]:
+                    - img
+                  - generic [ref=e221] [cursor=pointer]: 82 videos
+              - generic [ref=e224] [cursor=pointer]:
+                - heading "Playwright by Testers Talk ✅" [level=3] [ref=e225] [cursor=pointer]:
+                  - link "Playwright by Testers Talk ✅" [ref=e226] [cursor=pointer]:
+                    - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                    - generic [ref=e227] [cursor=pointer]: Playwright by Testers Talk ✅
+                - generic [ref=e229] [cursor=pointer]:
+                  - generic [ref=e230] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e233] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e234] [cursor=pointer]: •
+                    - link "Playlist" [ref=e237] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright #23 Complete Playwright Locators Tutorial · 30:47" [ref=e241] [cursor=pointer]':
+                    - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                  - link "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08" [ref=e244] [cursor=pointer]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                  - link "View full playlist" [ref=e249] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+            - generic [ref=e251]:
+              - link [ref=e253] [cursor=pointer]:
+                - /url: /@testerstalk
+              - generic [ref=e256]:
+                - link "Testers Talk @testerstalk•26.8K subscribers Hi Friends Welcome to Testers Talk channel, Myself Bakkappa N. I have been working as QA SDET Automation Test Lead over a ..." [ref=e257] [cursor=pointer]:
+                  - /url: /@testerstalk
+                  - generic [ref=e258] [cursor=pointer]:
+                    - generic [ref=e262] [cursor=pointer]: Testers Talk
+                    - generic [ref=e263] [cursor=pointer]:
+                      - generic [ref=e264] [cursor=pointer]: "@testerstalk"
+                      - generic [ref=e265] [cursor=pointer]: •
+                      - generic [ref=e266] [cursor=pointer]: 26.8K subscribers
+                    - generic [ref=e267] [cursor=pointer]:
+                      - generic [ref=e268] [cursor=pointer]: Hi Friends Welcome to
+                      - generic [ref=e269] [cursor=pointer]: Testers Talk
+                      - generic [ref=e270] [cursor=pointer]: channel, Myself Bakkappa N. I have been working as QA SDET Automation Test Lead over a ...
+                - link "Subscribe" [ref=e275] [cursor=pointer]:
+                  - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dplaywright%252Bby%252Btesters%252Btalk%26continue_action%3DQUFFLUhqbmxnNHNpdDF5TlhVcEZfWnhHUU9WWnZEdXF1QXxBQ3Jtc0tseXFJVkYyYXlRV193UHJDNWFIcVQ4NEJISzh3TTdQTS16Vjlackh4RWE3YjhvWjhMcDRiRGNhQzRUQTBreWhIWVEzb3FNUE9aNTNtNWdjdE5QOVFqc1RoVFozbmpwTzU0WlpkSkNvaC16UnN2bUlqLWZ1MUo2RVdvM3UzelFlY3RVZlF5YkR5dVQ5OVZsZGpqMXRCWDVocmE3U3JubWI3V24zWUZfcnRiaUJhZi04bTR3Vm01S3VDdmNBNE9MbWc1Y3g5S18&hl=en
+                  - generic [ref=e277] [cursor=pointer]: Subscribe
+            - generic [ref=e282] [cursor=pointer]:
+              - link [ref=e283] [cursor=pointer]:
+                - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THHdUG8ygn-qzvc2XQpI3qzi&pp=0gcJCbAEOCosWNin
+                - generic [ref=e293] [cursor=pointer]:
+                  - generic [ref=e296] [cursor=pointer]:
+                    - img
+                  - generic [ref=e297] [cursor=pointer]: 82 videos
+              - generic [ref=e300] [cursor=pointer]:
+                - heading "Playwright with JavaScript by Testers Talk ✅" [level=3] [ref=e301] [cursor=pointer]:
+                  - link "Playwright with JavaScript by Testers Talk ✅" [ref=e302] [cursor=pointer]:
+                    - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THHdUG8ygn-qzvc2XQpI3qzi&pp=0gcJCbAEOCosWNin
+                    - generic [ref=e303] [cursor=pointer]: Playwright with JavaScript by Testers Talk ✅
+                - generic [ref=e305] [cursor=pointer]:
+                  - generic [ref=e306] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e309] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e310] [cursor=pointer]: •
+                    - link "Playlist" [ref=e313] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright #23 Complete Playwright Locators Tutorial · 30:47" [ref=e317] [cursor=pointer]':
+                    - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THHdUG8ygn-qzvc2XQpI3qzi
+                  - link "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08" [ref=e320] [cursor=pointer]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHdUG8ygn-qzvc2XQpI3qzi
+                  - link "View full playlist" [ref=e325] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THHdUG8ygn-qzvc2XQpI3qzi
+            - generic [ref=e327]:
+              - link [ref=e329] [cursor=pointer]:
+                - /url: /watch?v=2poXBtifpzA&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+              - generic [ref=e331] [cursor=pointer]:
+                - generic [ref=e332] [cursor=pointer]:
+                  - generic [ref=e333] [cursor=pointer]:
+                    - heading "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial 6 hours, 55 minutes" [level=3] [ref=e334] [cursor=pointer]:
+                      - link "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial 6 hours, 55 minutes" [ref=e335] [cursor=pointer]:
+                        - /url: /watch?v=2poXBtifpzA&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+                        - generic "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial 6 hours, 55 minutes" [ref=e336] [cursor=pointer]: "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial"
+                    - button "Action menu" [ref=e340] [cursor=pointer]:
+                      - generic [ref=e343] [cursor=pointer]:
+                        - img
+                  - generic [ref=e346] [cursor=pointer]:
+                    - generic [ref=e347] [cursor=pointer]: 111K views
+                    - generic [ref=e348] [cursor=pointer]: •1 year ago
+                - generic [ref=e349] [cursor=pointer]:
+                  - link "Go to channel" [ref=e350] [cursor=pointer]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e356] [cursor=pointer]:
+                    - /url: /@testerstalk
+                - generic [ref=e357] [cursor=pointer]:
+                  - generic [ref=e358] [cursor=pointer]:
+                    - generic [ref=e359] [cursor=pointer]: Playwright
+                    - generic [ref=e360] [cursor=pointer]: enables reliable end-to-end
+                    - generic [ref=e361] [cursor=pointer]: testing
+                    - generic [ref=e362] [cursor=pointer]: for modern web apps.
+                    - generic [ref=e363] [cursor=pointer]: Playwright
+                    - generic [ref=e364] [cursor=pointer]: is an open-source automation library for browser ...
+                  - tooltip "tooltip"
+                - generic [ref=e367] [cursor=pointer]:
+                  - generic [ref=e368] [cursor=pointer]:
+                    - generic [ref=e372] [cursor=pointer]:
+                      - generic [ref=e373] [cursor=pointer]: "55"
+                      - generic [ref=e374] [cursor=pointer]: chapters
+                    - button [ref=e375] [cursor=pointer]:
+                      - generic [ref=e376] [cursor=pointer]: Playwright Tutorial Full Course | What is playwright? advantages limitations | Playwright architecture | Playwright vs Cypress | Playwright vs Selenium webdriver | Install nodejs & install visual studio code | Install playwright in vs code | Playwright folder structure | Run playwright test & test explorer | Run test on chrome & edge browser in playwright | Record test in playwright | Playwright test report | Record at cursor in playwright | Commonly used keywords in playwright | Write playwright first test | Pick locator in playwright | Install playwright using command prompt | Run playwright test in headless mode | Run playwright test in headed mode | Run specific spec file in playwright | Run playwright test using command line | Record playwright test using codegen | Playwright locators tutorial | Screenshots in playwright | Add screenshot into playwright report when test failed | Hooks in playwright | Handle dropdown list in playwright | Iframes in playwright | Drag and drop in playwright | Mouse actions in playwright | Playwright Mouse hover | Playwright keyboard actions | DatePicker in playwright | Create spec file | Assertions in playwright | Playwright hard assertion | Soft assertion in playwright | Playwright watch mode | Playwright Trace Viewer | Create playwright test | Skip test in playwright | Group tests in playwright | Tag test in playwright | Repeat test in playwright | Retry test in playwright | Parallel Testing in playwright | Parameterize tests in playwright | Visual comparison in playwright | Env File in playwright | Data driven testing using JSON in playwright | Data driven testing using CSV in playwright | Run playwright test on different environments | Page object model in playwright | Playwright video recording | Maximize full screen browser in playwright
+                  - button "More" [ref=e381] [cursor=pointer]:
+                    - generic [ref=e385] [cursor=pointer]:
+                      - img
+            - generic [ref=e390] [cursor=pointer]:
+              - link [ref=e391] [cursor=pointer]:
+                - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr&pp=0gcJCbAEOCosWNin
+                - generic [ref=e401] [cursor=pointer]:
+                  - generic [ref=e404] [cursor=pointer]:
+                    - img
+                  - generic [ref=e405] [cursor=pointer]: 110 videos
+              - generic [ref=e408] [cursor=pointer]:
+                - heading "Playwright TypeScript by Testers Talk ✅" [level=3] [ref=e409] [cursor=pointer]:
+                  - link "Playwright TypeScript by Testers Talk ✅" [ref=e410] [cursor=pointer]:
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr&pp=0gcJCbAEOCosWNin
+                    - generic [ref=e411] [cursor=pointer]: Playwright TypeScript by Testers Talk ✅
+                - generic [ref=e413] [cursor=pointer]:
+                  - generic [ref=e414] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e417] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e418] [cursor=pointer]: •
+                    - link "Playlist" [ref=e421] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright TypeScript #9 Install Playwright using VS Code | Playwright Automation Tutorial · 6:26" [ref=e425] [cursor=pointer]':
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+                  - 'link "Playwright TypeScript #25 How to Capture Screenshots in Playwright? | Page | Web Element | Full Page · 15:38" [ref=e428] [cursor=pointer]':
+                    - /url: /watch?v=0i0U9MSxJpc&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+                  - link "View full playlist" [ref=e433] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+            - generic [ref=e435] [cursor=pointer]:
+              - link [ref=e436] [cursor=pointer]:
+                - /url: /watch?v=-hBnQVtfrqk&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                - generic [ref=e446] [cursor=pointer]:
+                  - generic [ref=e449] [cursor=pointer]:
+                    - img
+                  - generic [ref=e450] [cursor=pointer]: 24 videos
+              - generic [ref=e453] [cursor=pointer]:
+                - heading "Playwright API Testing by Testers Talk☑️" [level=3] [ref=e454] [cursor=pointer]:
+                  - link "Playwright API Testing by Testers Talk☑️" [ref=e455] [cursor=pointer]:
+                    - /url: /watch?v=-hBnQVtfrqk&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                    - generic [ref=e456] [cursor=pointer]: Playwright API Testing by Testers Talk☑️
+                - generic [ref=e458] [cursor=pointer]:
+                  - generic [ref=e459] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e462] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e463] [cursor=pointer]: •
+                    - link "Playlist" [ref=e466] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright API Testing #54 Setup Playwright API Testing · 4:21" [ref=e470] [cursor=pointer]':
+                    - /url: /watch?v=-hBnQVtfrqk&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz&pp=0gcJCRYBOCosWNin
+                  - 'link "Playwright API Testing #64 DELETE API Request in Playwright · 9:06" [ref=e473] [cursor=pointer]':
+                    - /url: /watch?v=0IsHFiELmV8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                  - link "View full playlist" [ref=e478] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+            - generic [ref=e480]:
+              - heading "People also watched" [level=2] [ref=e483]:
+                - generic [ref=e485]: People also watched
+              - generic [ref=e487]:
+                - generic [ref=e488]:
+                  - generic [ref=e490]:
+                    - link [ref=e492] [cursor=pointer]:
+                      - /url: /watch?v=YWCGCPJu3Wg&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+                    - generic [ref=e494] [cursor=pointer]:
+                      - generic [ref=e495] [cursor=pointer]:
+                        - generic [ref=e496] [cursor=pointer]:
+                          - heading "Playwright 60 Interview Questions and Answers - Testing Tales 28 minutes" [level=3] [ref=e497] [cursor=pointer]:
+                            - link "Playwright 60 Interview Questions and Answers - Testing Tales 28 minutes" [ref=e498] [cursor=pointer]:
+                              - /url: /watch?v=YWCGCPJu3Wg&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+                              - generic "Playwright 60 Interview Questions and Answers - Testing Tales 28 minutes" [ref=e499] [cursor=pointer]: Playwright 60 Interview Questions and Answers - Testing Tales
+                          - button "Action menu" [ref=e503] [cursor=pointer]:
+                            - generic [ref=e506] [cursor=pointer]:
+                              - img
+                        - generic [ref=e509] [cursor=pointer]:
+                          - generic [ref=e510] [cursor=pointer]: 459 views
+                          - generic [ref=e511] [cursor=pointer]: •3 months ago
+                      - generic [ref=e512] [cursor=pointer]:
+                        - link "Go to channel" [ref=e513] [cursor=pointer]:
+                          - /url: /@testingtales5
+                        - link "Testing Tales" [ref=e518] [cursor=pointer]:
+                          - /url: /@testingtales5
+                      - generic [ref=e519] [cursor=pointer]:
+                        - generic [ref=e520] [cursor=pointer]:
+                          - generic [ref=e521] [cursor=pointer]: Playwright
+                          - generic [ref=e522] [cursor=pointer]: 60 Interview Questions and Answers -
+                          - generic [ref=e523] [cursor=pointer]: Testing
+                          - generic [ref=e524] [cursor=pointer]: "Tales . . . . #"
+                          - generic [ref=e525] [cursor=pointer]: testing
+                          - generic [ref=e526] [cursor=pointer]: "#testautomation #testplan #teststrategy #automation ..."
+                        - tooltip "tooltip"
+                  - generic [ref=e528]:
+                    - link [ref=e530] [cursor=pointer]:
+                      - /url: /watch?v=CvbERx5lj7M&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+                    - generic [ref=e532] [cursor=pointer]:
+                      - generic [ref=e533] [cursor=pointer]:
+                        - generic [ref=e534] [cursor=pointer]:
+                          - heading "Playwright Interview Questions and Answers 16 minutes" [level=3] [ref=e535] [cursor=pointer]:
+                            - link "Playwright Interview Questions and Answers 16 minutes" [ref=e536] [cursor=pointer]:
+                              - /url: /watch?v=CvbERx5lj7M&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+                              - generic "Playwright Interview Questions and Answers 16 minutes" [ref=e537] [cursor=pointer]: Playwright Interview Questions and Answers
+                          - button "Action menu" [ref=e541] [cursor=pointer]:
+                            - generic [ref=e544] [cursor=pointer]:
+                              - img
+                        - generic [ref=e547] [cursor=pointer]:
+                          - generic [ref=e548] [cursor=pointer]: 48K views
+                          - generic [ref=e549] [cursor=pointer]: •2 years ago
+                      - generic [ref=e550] [cursor=pointer]:
+                        - link "Go to channel" [ref=e551] [cursor=pointer]:
+                          - /url: /@letcode
+                        - link "LetCode with Koushik" [ref=e556] [cursor=pointer]:
+                          - /url: /@letcode
+                      - generic [ref=e557] [cursor=pointer]:
+                        - generic [ref=e558] [cursor=pointer]:
+                          - generic [ref=e559] [cursor=pointer]: Hello guys, in this video we will discuss 30
+                          - generic [ref=e560] [cursor=pointer]: Playwright
+                          - generic [ref=e561] [cursor=pointer]: "interview questions with answers. #"
+                          - generic [ref=e562] [cursor=pointer]: playwright
+                          - generic [ref=e563] [cursor=pointer]: "#testautomation ..."
+                        - tooltip "tooltip"
+                      - generic [ref=e566] [cursor=pointer]:
+                        - generic [ref=e567] [cursor=pointer]:
+                          - generic [ref=e571] [cursor=pointer]:
+                            - generic [ref=e572] [cursor=pointer]: "30"
+                            - generic [ref=e573] [cursor=pointer]: chapters
+                          - button [ref=e574] [cursor=pointer]:
+                            - generic [ref=e575] [cursor=pointer]: Intro | Why Playwright? | How do you run failed test cases? | How do you handles two windows or tabs? | 5. What is the difference between npm and npx? | What is playwright fixture? | How to open browser? | How do you perform cross- browser testing? | How to execute in a local browser? | How to run only specific tests from a test suite? | How to generate authentication cookies? | How to skip a test based on the browser? | How to find XPath or ess? | What is Aria option? | How to handle alert? | How to open a new tab? | Playwright architecture? | How to run test in parallel? | How to maximize browser? | Name a few exception you faced in Playwright? | How to do hard & soft assertion? | How to open the HTML report? | Difference between innerHTML, textContent & innerText? | Fill & type differences? | How to attach a screenshot to the reporter? | How to save a screenshot to the path? | Difference between new page and new context? | How to find multiple locators? | How to use explicit waits? | How to verify the element CSS color?
+                        - button "More" [ref=e580] [cursor=pointer]:
+                          - generic [ref=e584] [cursor=pointer]:
+                            - img
+                  - generic [ref=e589]:
+                    - link [ref=e591] [cursor=pointer]:
+                      - /url: /watch?v=FZ5NlP1hL9A&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+                    - generic [ref=e593] [cursor=pointer]:
+                      - generic [ref=e594] [cursor=pointer]:
+                        - generic [ref=e595] [cursor=pointer]:
+                          - heading "How To Run Playwright With Jenkins | Integrate Playwright With Jenkins 28 minutes" [level=3] [ref=e596] [cursor=pointer]:
+                            - link "How To Run Playwright With Jenkins | Integrate Playwright With Jenkins 28 minutes" [ref=e597] [cursor=pointer]:
+                              - /url: /watch?v=FZ5NlP1hL9A&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+                              - generic "How To Run Playwright With Jenkins | Integrate Playwright With Jenkins 28 minutes" [ref=e598] [cursor=pointer]: How To Run Playwright With Jenkins | Integrate Playwright With Jenkins
+                          - button "Action menu" [ref=e602] [cursor=pointer]:
+                            - generic [ref=e605] [cursor=pointer]:
+                              - img
+                        - generic [ref=e608] [cursor=pointer]:
+                          - generic [ref=e609] [cursor=pointer]: 15K views
+                          - generic [ref=e610] [cursor=pointer]: •1 year ago
+                      - generic [ref=e611] [cursor=pointer]:
+                        - link "Go to channel" [ref=e612] [cursor=pointer]:
+                          - /url: /@Mukeshotwani
+                        - generic [ref=e613] [cursor=pointer]:
+                          - link "Mukesh otwani" [ref=e617] [cursor=pointer]:
+                            - /url: /@Mukeshotwani
+                          - img "Verified" [ref=e619] [cursor=pointer]:
+                            - generic [ref=e622] [cursor=pointer]:
+                              - img
+                            - paragraph
+                      - generic [ref=e623] [cursor=pointer]:
+                        - generic [ref=e624] [cursor=pointer]:
+                          - generic [ref=e625] [cursor=pointer]: In this tutorial, we will discuss integration of
+                          - generic [ref=e626] [cursor=pointer]: Playwright
+                          - generic [ref=e627] [cursor=pointer]: with Jenkins. I will explain the process of setting up and configuring ...
+                        - tooltip "tooltip"
+                  - generic [ref=e629]:
+                    - link [ref=e631] [cursor=pointer]:
+                      - /url: /watch?v=lSArkaDKD2Q&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGvSBwkJAwoBhyohjO8%3D
+                    - generic [ref=e633] [cursor=pointer]:
+                      - generic [ref=e634] [cursor=pointer]:
+                        - generic [ref=e635] [cursor=pointer]:
+                          - heading "#9 - Run Playwright Tests using Jenkins - CI CD Pipeline 31 minutes" [level=3] [ref=e636] [cursor=pointer]:
+                            - link "#9 - Run Playwright Tests using Jenkins - CI CD Pipeline 31 minutes" [ref=e637] [cursor=pointer]:
+                              - /url: /watch?v=lSArkaDKD2Q&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGvSBwkJAwoBhyohjO8%3D
+                              - generic "#9 - Run Playwright Tests using Jenkins - CI CD Pipeline 31 minutes" [ref=e638] [cursor=pointer]: "#9 - Run Playwright Tests using Jenkins - CI CD Pipeline"
+                          - button "Action menu" [ref=e642] [cursor=pointer]:
+                            - generic [ref=e645] [cursor=pointer]:
+                              - img
+                        - generic [ref=e648] [cursor=pointer]:
+                          - generic [ref=e649] [cursor=pointer]: 21K views
+                          - generic [ref=e650] [cursor=pointer]: •3 years ago
+                      - generic [ref=e651] [cursor=pointer]:
+                        - link "Go to channel" [ref=e652] [cursor=pointer]:
+                          - /url: /@naveenautomationlabs
+                        - generic [ref=e653] [cursor=pointer]:
+                          - link "Naveen AutomationLabs" [ref=e657] [cursor=pointer]:
+                            - /url: /@naveenautomationlabs
+                          - img "Verified" [ref=e659] [cursor=pointer]:
+                            - generic [ref=e662] [cursor=pointer]:
+                              - img
+                            - paragraph
+                      - generic [ref=e663] [cursor=pointer]:
+                        - generic [ref=e664] [cursor=pointer]:
+                          - generic [ref=e665] [cursor=pointer]: 9 - Run
+                          - generic [ref=e666] [cursor=pointer]: Playwright
+                          - generic [ref=e667] [cursor=pointer]: "Tests using Jenkins - CI CD Pipeline Schedule a meeting in case of any queries/guidance/counselling: ..."
+                        - tooltip "tooltip"
+                      - generic [ref=e670] [cursor=pointer]:
+                        - generic [ref=e671] [cursor=pointer]:
+                          - generic [ref=e675] [cursor=pointer]:
+                            - generic [ref=e676] [cursor=pointer]: "10"
+                            - generic [ref=e677] [cursor=pointer]: moments
+                          - button "Create a Pipeline | Pipeline Diagram | Regression Automation Test after Deploy to a Qa | Declarative Pipeline Syntax | Move the Code to the Git Repository | Generate the Base64 Path | Take a Screenshot Method | Logs | Blue Ocean Pipeline | Open Blue Ocean Pipeline" [ref=e678] [cursor=pointer]:
+                            - generic [ref=e679] [cursor=pointer]: Create a Pipeline | Pipeline Diagram | Regression Automation Test after Deploy to a Qa | Declarative Pipeline Syntax | Move the Code to the Git Repository | Generate the Base64 Path | Take a Screenshot Method | Logs | Blue Ocean Pipeline | Open Blue Ocean Pipeline
+                        - button "More" [ref=e684] [cursor=pointer]:
+                          - generic [ref=e688] [cursor=pointer]:
+                            - img
+                - generic "+6 more" [ref=e693] [cursor=pointer]:
+                  - generic [ref=e694] [cursor=pointer]: +
+                  - generic [ref=e695] [cursor=pointer]: "6"
+                  - generic [ref=e696] [cursor=pointer]: more
+            - generic [ref=e698]:
+              - link [ref=e700] [cursor=pointer]:
+                - /url: /watch?v=788GvvcfwTY&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+              - generic [ref=e702] [cursor=pointer]:
+                - generic [ref=e703] [cursor=pointer]:
+                  - generic [ref=e704] [cursor=pointer]:
+                    - heading "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [level=3] [ref=e705] [cursor=pointer]:
+                      - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [ref=e706] [cursor=pointer]:
+                        - /url: /watch?v=788GvvcfwTY&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+                        - generic "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [ref=e707] [cursor=pointer]: "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial"
+                    - button "Action menu" [ref=e711] [cursor=pointer]:
+                      - generic [ref=e714] [cursor=pointer]:
+                        - img
+                  - generic [ref=e717] [cursor=pointer]:
+                    - generic [ref=e718] [cursor=pointer]: 85K views
+                    - generic [ref=e719] [cursor=pointer]: •9 months ago
+                - generic [ref=e720] [cursor=pointer]:
+                  - link "Go to channel" [ref=e721] [cursor=pointer]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e726] [cursor=pointer]:
+                    - /url: /@testerstalk
+                - generic [ref=e727] [cursor=pointer]:
+                  - generic [ref=e728] [cursor=pointer]:
+                    - generic [ref=e729] [cursor=pointer]: Playwright
+                    - generic [ref=e730] [cursor=pointer]: Automation Using TypeScript Full Course |
+                    - generic [ref=e731] [cursor=pointer]: Playwright
+                    - generic [ref=e732] [cursor=pointer]: "TypeScript Beginner Tutorials:"
+                    - generic [ref=e733] [cursor=pointer]: Playwright
+                    - generic [ref=e734] [cursor=pointer]: enables reliable ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e736] [cursor=pointer]:
+                  - paragraph [ref=e737] [cursor=pointer]: 4K
+                - generic [ref=e740] [cursor=pointer]:
+                  - generic [ref=e741] [cursor=pointer]:
+                    - generic [ref=e745] [cursor=pointer]:
+                      - generic [ref=e746] [cursor=pointer]: "58"
+                      - generic [ref=e747] [cursor=pointer]: chapters
+                    - button [ref=e748] [cursor=pointer]:
+                      - generic [ref=e749] [cursor=pointer]: Playwright with TypeScript Tutorial Full Course | Playwright TypeScript GitHub Repository | Playwright with TypeScript Chapter01 | What is Playwright? | Playwright Architecture | Playwright vs Cypress vs Selenium WebDriver | Softwares required playwright testing | Download & Install NodeJS | Download & Install VS Code | Setup Playwright TypeScript using VS Code | Run, Debug & Filter Playwright Tests | Install Playwright TypeScript using Command/Terminal | Record Playwright Test using VS Code | Run Playwright tests on Chrome, Edge & Firefox browsers | Generate readable playwright html test report | Commonly used playwright terminologies | Write first playwright typescript test & pick locator | Record at Cursor in playwright | Execute specific spec in playwright typescript | Run playwright typescript test on headless mode | Run playwright typescript test on headed mode | Run playwright test on chrome, edge, firefox using cmd | Record playwright test using Codegen | Playwright with TypeScript Chapter02 | Capture screenshots in playwright typescript | Attach screenshot into playwright test report | Locators in playwright typescript | Hooks in playwright typescript | Selecting & validating dropdown options in playwright typescript | Handling iframe playwright & drag and drop in playwright | Mouse actions in playwright typescript | Keyboard actions in playwright typescript | Selecting date field value in playwright typescript | playwright typescript assertions - hard & soft | Watch mode in playwright | Playwright UI Mode | Trace Viewer in playwright typescript | Playwright with TypeScript Chapter03 | Playwright annotations - skip & only | Group & execute tests in playwright typescript | Tags in Playwright TypeScript | Repeat playwright test execution | Automatically retry/rerun failed test in playwright | Parameterize tests in playwright typescript | Visual Testing or Visual comparison in playwright typescript | Timeouts in playwright | Playwright with TypeScript Chapter04 | tsconfig.json file in playwright typescript | Browser context in playwright | Execute only last failed tests in playwright | Handling alerts/popups in playwright | Playwright test reports - html report, json report, junit report etc. | Recording video of test execution in playwright | Parallel/parallelism test execution in playwright typescript | Integrating allure report with playwright | textContent(), innerText(), getAttribute() in playwright | Iterating matching elements in playwright | Handling checkbox & radion buttons in playwright
+                  - button "More" [ref=e754] [cursor=pointer]:
+                    - generic [ref=e758] [cursor=pointer]:
+                      - img
+            - generic [ref=e763]:
+              - link [ref=e765] [cursor=pointer]:
+                - /url: /watch?v=VYCvMGHVHoM&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+              - generic [ref=e767] [cursor=pointer]:
+                - generic [ref=e768] [cursor=pointer]:
+                  - generic [ref=e769] [cursor=pointer]:
+                    - 'heading "Playwright #32 Assertions in Playwright 19 minutes" [level=3] [ref=e770] [cursor=pointer]':
+                      - 'link "Playwright #32 Assertions in Playwright 19 minutes" [ref=e771] [cursor=pointer]':
+                        - /url: /watch?v=VYCvMGHVHoM&pp=ygUacGxheXdyaWdodCBieSB0ZXN0ZXJzIHRhbGs%3D
+                        - 'generic "Playwright #32 Assertions in Playwright 19 minutes" [ref=e772] [cursor=pointer]': "Playwright #32 Assertions in Playwright"
+                    - button "Action menu" [ref=e776] [cursor=pointer]:
+                      - generic [ref=e779] [cursor=pointer]:
+                        - img
+                  - generic [ref=e782] [cursor=pointer]:
+                    - generic [ref=e783] [cursor=pointer]: 1K views
+                    - generic [ref=e784] [cursor=pointer]: •1 year ago
+                - generic [ref=e785] [cursor=pointer]:
+                  - link "Go to channel" [ref=e786] [cursor=pointer]:
+                    - /url: /@testerstalk
+                  - link "Testers Talk" [ref=e791] [cursor=pointer]:
+                    - /url: /@testerstalk
+                - generic [ref=e792] [cursor=pointer]:
+                  - generic [ref=e793] [cursor=pointer]:
+                    - generic [ref=e794] [cursor=pointer]: Playwright
+                    - generic [ref=e795] [cursor=pointer]: enables reliable end-to-end
+                    - generic [ref=e796] [cursor=pointer]: testing
+                    - generic [ref=e797] [cursor=pointer]: for modern web apps.
+                    - generic [ref=e798] [cursor=pointer]: Playwright
+                    - generic [ref=e799] [cursor=pointer]: is an open-source automation library for browser ...
+                  - tooltip "tooltip"
+            - generic [ref=e800]:
+              - generic [ref=e803]:
+                - img [ref=e805]:
+                  - generic [ref=e807]:
+                    - img
+                - heading "Shorts" [level=2] [ref=e810]:
+                  - generic [ref=e811]: Shorts
+              - generic [ref=e813]:
+                - generic [ref=e816]:
+                  - link [ref=e817] [cursor=pointer]:
+                    - /url: /shorts/WjGv3HqoEkw
+                  - generic [ref=e820] [cursor=pointer]:
+                    - 'link "#10 What is Expect in Playwright? | Playwright Automation Tutorial #playwright #testing #testerstalk" [ref=e821] [cursor=pointer]':
+                      - /url: /shorts/WjGv3HqoEkw
+                      - generic [ref=e822] [cursor=pointer]: "#10 What is Expect in Playwright? | Playwright Automation Tutorial #playwright #testing #testerstalk"
+                    - generic [ref=e824] [cursor=pointer]: 1.1K views
+                  - button "More actions" [ref=e826] [cursor=pointer]:
+                    - generic [ref=e830] [cursor=pointer]:
+                      - img
+                - generic [ref=e836]:
+                  - link [ref=e837] [cursor=pointer]:
+                    - /url: /shorts/bk89WYhBV44
+                  - generic [ref=e840] [cursor=pointer]:
+                    - 'link "#15 Best Practices for Playwright Test Automation #playwright #automation #testing #testerstalk" [ref=e841] [cursor=pointer]':
+                      - /url: /shorts/bk89WYhBV44
+                      - generic [ref=e842] [cursor=pointer]: "#15 Best Practices for Playwright Test Automation #playwright #automation #testing #testerstalk"
+                    - generic [ref=e844] [cursor=pointer]: 1.2K views
+                  - button "More actions" [ref=e846] [cursor=pointer]:
+                    - generic [ref=e850] [cursor=pointer]:
+                      - img
+                - generic [ref=e856]:
+                  - link [ref=e857] [cursor=pointer]:
+                    - /url: /shorts/lkMBZUnYihc
+                  - generic [ref=e860] [cursor=pointer]:
+                    - 'link "#3 Benefits of using Playwright? | Playwright Automation Tutorial #playwright #testautomation #sdet" [ref=e861] [cursor=pointer]':
+                      - /url: /shorts/lkMBZUnYihc
+                      - generic [ref=e862] [cursor=pointer]: "#3 Benefits of using Playwright? | Playwright Automation Tutorial #playwright #testautomation #sdet"
+                    - generic [ref=e864] [cursor=pointer]: 1.3K views
+                  - button "More actions" [ref=e866] [cursor=pointer]:
+                    - generic [ref=e870] [cursor=pointer]:
+                      - img
+                - generic [ref=e876]:
+                  - link [ref=e877] [cursor=pointer]:
+                    - /url: /shorts/ZVH6jgI2n8k
+                  - generic [ref=e880] [cursor=pointer]:
+                    - 'link "#16 Key Components in Playwright Testing? #playwright #tutorial #automation #testerstalk #testing" [ref=e881] [cursor=pointer]':
+                      - /url: /shorts/ZVH6jgI2n8k
+                      - generic [ref=e882] [cursor=pointer]: "#16 Key Components in Playwright Testing? #playwright #tutorial #automation #testerstalk #testing"
+                    - generic [ref=e884] [cursor=pointer]: 1.1K views
+                  - button "More actions" [ref=e886] [cursor=pointer]:
+                    - generic [ref=e890] [cursor=pointer]:
+                      - img
+                - generic [ref=e896]:
+                  - link [ref=e897] [cursor=pointer]:
+                    - /url: /shorts/xxByXbObSIw
+                  - generic [ref=e900] [cursor=pointer]:
+                    - 'link "#18 Assertions - Hard Assertion & Soft Assertion in Playwright Testing #playwright #automation #qa" [ref=e901] [cursor=pointer]':
+                      - /url: /shorts/xxByXbObSIw
+                      - generic [ref=e902] [cursor=pointer]: "#18 Assertions - Hard Assertion & Soft Assertion in Playwright Testing #playwright #automation #qa"
+                    - generic [ref=e904] [cursor=pointer]: 1.5K views
+                  - button "More actions" [ref=e906] [cursor=pointer]:
+                    - generic [ref=e910] [cursor=pointer]:
+                      - img
+              - button "Show more" [ref=e917] [cursor=pointer]:
+                - generic [ref=e918] [cursor=pointer]: Show more
+                - generic [ref=e922] [cursor=pointer]:
+                  - img
+            - generic [ref=e927] [cursor=pointer]:
+              - link [ref=e928] [cursor=pointer]:
+                - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THFSOUcVo_Cfam8I_IO483mV
+                - generic [ref=e938] [cursor=pointer]:
+                  - generic [ref=e941] [cursor=pointer]:
+                    - img
+                  - generic [ref=e942] [cursor=pointer]: 82 videos
+              - generic [ref=e945] [cursor=pointer]:
+                - heading "Playwright JavaScript by Testers Talk☑️" [level=3] [ref=e946] [cursor=pointer]:
+                  - link "Playwright JavaScript by Testers Talk☑️" [ref=e947] [cursor=pointer]:
+                    - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THFSOUcVo_Cfam8I_IO483mV
+                    - generic [ref=e948] [cursor=pointer]: Playwright JavaScript by Testers Talk☑️
+                - generic [ref=e950] [cursor=pointer]:
+                  - generic [ref=e951] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e954] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e955] [cursor=pointer]: •
+                    - link "Playlist" [ref=e958] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright #23 Complete Playwright Locators Tutorial · 30:47" [ref=e962] [cursor=pointer]':
+                    - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THFSOUcVo_Cfam8I_IO483mV
+                  - link "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08" [ref=e965] [cursor=pointer]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THFSOUcVo_Cfam8I_IO483mV&pp=0gcJCRYBOCosWNin
+                  - link "View full playlist" [ref=e970] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THFSOUcVo_Cfam8I_IO483mV
+            - generic [ref=e972] [cursor=pointer]:
+              - link [ref=e973] [cursor=pointer]:
+                - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THEn2jQpsVpTuABKmUzFC53J
+                - generic [ref=e983] [cursor=pointer]:
+                  - generic [ref=e986] [cursor=pointer]:
+                    - img
+                  - generic [ref=e987] [cursor=pointer]: 101 videos
+              - generic [ref=e990] [cursor=pointer]:
+                - heading "Playwright with TypeScript by Testers Talk" [level=3] [ref=e991] [cursor=pointer]:
+                  - link "Playwright with TypeScript by Testers Talk" [ref=e992] [cursor=pointer]:
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THEn2jQpsVpTuABKmUzFC53J
+                    - generic [ref=e993] [cursor=pointer]: Playwright with TypeScript by Testers Talk
+                - generic [ref=e995] [cursor=pointer]:
+                  - generic [ref=e996] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e999] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1000] [cursor=pointer]: •
+                    - link "Playlist" [ref=e1003] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright TypeScript #9 Install Playwright using VS Code | Playwright Automation Tutorial · 6:26" [ref=e1007] [cursor=pointer]':
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THEn2jQpsVpTuABKmUzFC53J
+                  - 'link "Playwright TypeScript #25 How to Capture Screenshots in Playwright? | Page | Web Element | Full Page · 15:38" [ref=e1010] [cursor=pointer]':
+                    - /url: /watch?v=0i0U9MSxJpc&list=PLUeDIlio4THEn2jQpsVpTuABKmUzFC53J
+                  - link "View full playlist" [ref=e1015] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THEn2jQpsVpTuABKmUzFC53J
+            - generic [ref=e1017] [cursor=pointer]:
+              - link [ref=e1018] [cursor=pointer]:
+                - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+                - generic [ref=e1028] [cursor=pointer]:
+                  - generic [ref=e1031] [cursor=pointer]:
+                    - img
+                  - generic [ref=e1032] [cursor=pointer]: 74 videos
+              - generic [ref=e1035] [cursor=pointer]:
+                - heading "Playwright with TypeScript Full Course 2025" [level=3] [ref=e1036] [cursor=pointer]:
+                  - link "Playwright with TypeScript Full Course 2025" [ref=e1037] [cursor=pointer]:
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+                    - generic [ref=e1038] [cursor=pointer]: Playwright with TypeScript Full Course 2025
+                - generic [ref=e1040] [cursor=pointer]:
+                  - generic [ref=e1041] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e1044] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1045] [cursor=pointer]: •
+                    - link "Playlist" [ref=e1048] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright TypeScript #9 Install Playwright using VS Code | Playwright Automation Tutorial · 6:26" [ref=e1052] [cursor=pointer]':
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+                  - 'link "Playwright TypeScript #25 How to Capture Screenshots in Playwright? | Page | Web Element | Full Page · 15:38" [ref=e1055] [cursor=pointer]':
+                    - /url: /watch?v=0i0U9MSxJpc&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+                  - link "View full playlist" [ref=e1060] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+            - generic [ref=e1061]:
+              - generic [ref=e1064]:
+                - img [ref=e1066]:
+                  - generic [ref=e1068]:
+                    - img
+                - heading "Shorts" [level=2] [ref=e1071]:
+                  - generic [ref=e1072]: Shorts
+              - generic [ref=e1074]:
+                - generic [ref=e1077]:
+                  - link [ref=e1078] [cursor=pointer]:
+                    - /url: /shorts/sR6yqAxTGdY
+                  - generic [ref=e1081] [cursor=pointer]:
+                    - 'link "Here for you - Playwright Beginner tutorials | #AskRaghav" [ref=e1082] [cursor=pointer]':
+                      - /url: /shorts/sR6yqAxTGdY
+                      - generic [ref=e1083] [cursor=pointer]: "Here for you - Playwright Beginner tutorials | #AskRaghav"
+                    - generic [ref=e1085] [cursor=pointer]: 60K views
+                  - button "More actions" [ref=e1087] [cursor=pointer]:
+                    - generic [ref=e1091] [cursor=pointer]:
+                      - img
+                - generic [ref=e1097]:
+                  - link [ref=e1098] [cursor=pointer]:
+                    - /url: /shorts/ktzCWrO44wY
+                  - generic [ref=e1101] [cursor=pointer]:
+                    - 'link "Selenium Vs Playwright : Which Tool Is Better" [ref=e1102] [cursor=pointer]':
+                      - /url: /shorts/ktzCWrO44wY
+                      - generic [ref=e1103] [cursor=pointer]: "Selenium Vs Playwright : Which Tool Is Better"
+                    - generic [ref=e1105] [cursor=pointer]: 118K views
+                  - button "More actions" [ref=e1107] [cursor=pointer]:
+                    - generic [ref=e1111] [cursor=pointer]:
+                      - img
+                - generic [ref=e1117]:
+                  - link [ref=e1118] [cursor=pointer]:
+                    - /url: /shorts/q7Jzpbf_4U4
+                  - generic [ref=e1121] [cursor=pointer]:
+                    - 'link "#1 What is Playwright? Playwright Tutorial #playwright #testautomation #qa #automationtesting" [ref=e1122] [cursor=pointer]':
+                      - /url: /shorts/q7Jzpbf_4U4
+                      - generic [ref=e1123] [cursor=pointer]: "#1 What is Playwright? Playwright Tutorial #playwright #testautomation #qa #automationtesting"
+                    - generic [ref=e1125] [cursor=pointer]: 2.5K views
+                  - button "More actions" [ref=e1127] [cursor=pointer]:
+                    - generic [ref=e1131] [cursor=pointer]:
+                      - img
+                - generic [ref=e1137]:
+                  - link [ref=e1138] [cursor=pointer]:
+                    - /url: /shorts/eBT4hQscYog
+                  - generic [ref=e1141] [cursor=pointer]:
+                    - link "10X Faster Testing?! Playwright vs Selenium" [ref=e1142] [cursor=pointer]:
+                      - /url: /shorts/eBT4hQscYog
+                      - generic [ref=e1143] [cursor=pointer]: 10X Faster Testing?! Playwright vs Selenium
+                    - generic [ref=e1145] [cursor=pointer]: 63K views
+                  - button "More actions" [ref=e1147] [cursor=pointer]:
+                    - generic [ref=e1151] [cursor=pointer]:
+                      - img
+                - generic [ref=e1157]:
+                  - link [ref=e1158] [cursor=pointer]:
+                    - /url: /shorts/E_bWHVGymQE
+                  - generic [ref=e1161] [cursor=pointer]:
+                    - 'link "What is Playwright? #playwright" [ref=e1162] [cursor=pointer]':
+                      - /url: /shorts/E_bWHVGymQE
+                      - generic [ref=e1163] [cursor=pointer]: "What is Playwright? #playwright"
+                    - generic [ref=e1165] [cursor=pointer]: 27K views
+                  - button "More actions" [ref=e1167] [cursor=pointer]:
+                    - generic [ref=e1171] [cursor=pointer]:
+                      - img
+              - button "Show more" [ref=e1178] [cursor=pointer]:
+                - generic [ref=e1179] [cursor=pointer]: Show more
+                - generic [ref=e1183] [cursor=pointer]:
+                  - img
+            - generic [ref=e1188] [cursor=pointer]:
+              - link [ref=e1189] [cursor=pointer]:
+                - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THGS-7JbBnnWvs_MLZdBKRgB
+                - generic [ref=e1199] [cursor=pointer]:
+                  - generic [ref=e1202] [cursor=pointer]:
+                    - img
+                  - generic [ref=e1203] [cursor=pointer]: 62 videos
+              - generic [ref=e1206] [cursor=pointer]:
+                - heading "Playwright with JavaScript☑️" [level=3] [ref=e1207] [cursor=pointer]:
+                  - link "Playwright with JavaScript☑️" [ref=e1208] [cursor=pointer]:
+                    - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THGS-7JbBnnWvs_MLZdBKRgB
+                    - generic [ref=e1209] [cursor=pointer]: Playwright with JavaScript☑️
+                - generic [ref=e1211] [cursor=pointer]:
+                  - generic [ref=e1212] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e1215] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1216] [cursor=pointer]: •
+                    - link "Playlist" [ref=e1219] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright #23 Complete Playwright Locators Tutorial · 30:47" [ref=e1223] [cursor=pointer]':
+                    - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THGS-7JbBnnWvs_MLZdBKRgB
+                  - link "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08" [ref=e1226] [cursor=pointer]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THGS-7JbBnnWvs_MLZdBKRgB
+                  - link "View full playlist" [ref=e1231] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THGS-7JbBnnWvs_MLZdBKRgB
+            - generic [ref=e1233] [cursor=pointer]:
+              - link [ref=e1234] [cursor=pointer]:
+                - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THEr0uVFPaxVDRZr7ku3PSeI
+                - generic [ref=e1244] [cursor=pointer]:
+                  - generic [ref=e1247] [cursor=pointer]:
+                    - img
+                  - generic [ref=e1248] [cursor=pointer]: 74 videos
+              - generic [ref=e1251] [cursor=pointer]:
+                - heading "Playwright TypeScript Fixtures" [level=3] [ref=e1252] [cursor=pointer]:
+                  - link "Playwright TypeScript Fixtures" [ref=e1253] [cursor=pointer]:
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THEr0uVFPaxVDRZr7ku3PSeI
+                    - generic [ref=e1254] [cursor=pointer]: Playwright TypeScript Fixtures
+                - generic [ref=e1256] [cursor=pointer]:
+                  - generic [ref=e1257] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e1260] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1261] [cursor=pointer]: •
+                    - link "Playlist" [ref=e1264] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright TypeScript #9 Install Playwright using VS Code | Playwright Automation Tutorial · 6:26" [ref=e1268] [cursor=pointer]':
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THEr0uVFPaxVDRZr7ku3PSeI
+                  - 'link "Playwright TypeScript #25 How to Capture Screenshots in Playwright? | Page | Web Element | Full Page · 15:38" [ref=e1271] [cursor=pointer]':
+                    - /url: /watch?v=0i0U9MSxJpc&list=PLUeDIlio4THEr0uVFPaxVDRZr7ku3PSeI
+                  - link "View full playlist" [ref=e1276] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THEr0uVFPaxVDRZr7ku3PSeI
+            - generic [ref=e1278] [cursor=pointer]:
+              - link [ref=e1279] [cursor=pointer]:
+                - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THG0MM5BQDpAbcPm5VfT_hph
+                - generic [ref=e1289] [cursor=pointer]:
+                  - generic [ref=e1292] [cursor=pointer]:
+                    - img
+                  - generic [ref=e1293] [cursor=pointer]: 74 videos
+              - generic [ref=e1296] [cursor=pointer]:
+                - heading "Playwright with TypeScript Automation Step by Step" [level=3] [ref=e1297] [cursor=pointer]:
+                  - link "Playwright with TypeScript Automation Step by Step" [ref=e1298] [cursor=pointer]:
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THG0MM5BQDpAbcPm5VfT_hph
+                    - generic [ref=e1299] [cursor=pointer]: Playwright with TypeScript Automation Step by Step
+                - generic [ref=e1301] [cursor=pointer]:
+                  - generic [ref=e1302] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e1305] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1306] [cursor=pointer]: •
+                    - link "Playlist" [ref=e1309] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright TypeScript #9 Install Playwright using VS Code | Playwright Automation Tutorial · 6:26" [ref=e1313] [cursor=pointer]':
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THG0MM5BQDpAbcPm5VfT_hph
+                  - 'link "Playwright TypeScript #25 How to Capture Screenshots in Playwright? | Page | Web Element | Full Page · 15:38" [ref=e1316] [cursor=pointer]':
+                    - /url: /watch?v=0i0U9MSxJpc&list=PLUeDIlio4THG0MM5BQDpAbcPm5VfT_hph
+                  - link "View full playlist" [ref=e1321] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THG0MM5BQDpAbcPm5VfT_hph
+            - generic [ref=e1323] [cursor=pointer]:
+              - link [ref=e1324] [cursor=pointer]:
+                - /url: /watch?v=-hBnQVtfrqk&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+                - generic [ref=e1334] [cursor=pointer]:
+                  - generic [ref=e1337] [cursor=pointer]:
+                    - img
+                  - generic [ref=e1338] [cursor=pointer]: 16 videos
+              - generic [ref=e1341] [cursor=pointer]:
+                - heading "Playwright API Testing Tutorial" [level=3] [ref=e1342] [cursor=pointer]:
+                  - link "Playwright API Testing Tutorial" [ref=e1343] [cursor=pointer]:
+                    - /url: /watch?v=-hBnQVtfrqk&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+                    - generic [ref=e1344] [cursor=pointer]: Playwright API Testing Tutorial
+                - generic [ref=e1346] [cursor=pointer]:
+                  - generic [ref=e1347] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e1350] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1351] [cursor=pointer]: •
+                    - link "Playlist" [ref=e1354] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright API Testing #54 Setup Playwright API Testing · 4:21" [ref=e1358] [cursor=pointer]':
+                    - /url: /watch?v=-hBnQVtfrqk&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+                  - 'link "Playwright API Testing #64 DELETE API Request in Playwright · 9:06" [ref=e1361] [cursor=pointer]':
+                    - /url: /watch?v=0IsHFiELmV8&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+                  - link "View full playlist" [ref=e1366] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+            - generic [ref=e1368] [cursor=pointer]:
+              - link [ref=e1369] [cursor=pointer]:
+                - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+                - generic [ref=e1379] [cursor=pointer]:
+                  - generic [ref=e1382] [cursor=pointer]:
+                    - img
+                  - generic [ref=e1383] [cursor=pointer]: 78 videos
+              - generic [ref=e1386] [cursor=pointer]:
+                - heading "Playwright Automation Tutorial☑️" [level=3] [ref=e1387] [cursor=pointer]:
+                  - link "Playwright Automation Tutorial☑️" [ref=e1388] [cursor=pointer]:
+                    - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+                    - generic [ref=e1389] [cursor=pointer]: Playwright Automation Tutorial☑️
+                - generic [ref=e1391] [cursor=pointer]:
+                  - generic [ref=e1392] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e1395] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1396] [cursor=pointer]: •
+                    - link "Playlist" [ref=e1399] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright #23 Complete Playwright Locators Tutorial · 30:47" [ref=e1403] [cursor=pointer]':
+                    - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+                  - link "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08" [ref=e1406] [cursor=pointer]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+                  - link "View full playlist" [ref=e1411] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+            - generic [ref=e1413] [cursor=pointer]:
+              - link [ref=e1414] [cursor=pointer]:
+                - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THHKX7d-8dLG6WttL4oYR0nn
+                - generic [ref=e1424] [cursor=pointer]:
+                  - generic [ref=e1427] [cursor=pointer]:
+                    - img
+                  - generic [ref=e1428] [cursor=pointer]: 74 videos
+              - generic [ref=e1431] [cursor=pointer]:
+                - heading "Playwright Automation with TypeScript" [level=3] [ref=e1432] [cursor=pointer]:
+                  - link "Playwright Automation with TypeScript" [ref=e1433] [cursor=pointer]:
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THHKX7d-8dLG6WttL4oYR0nn
+                    - generic [ref=e1434] [cursor=pointer]: Playwright Automation with TypeScript
+                - generic [ref=e1436] [cursor=pointer]:
+                  - generic [ref=e1437] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e1440] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1441] [cursor=pointer]: •
+                    - link "Playlist" [ref=e1444] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright TypeScript #9 Install Playwright using VS Code | Playwright Automation Tutorial · 6:26" [ref=e1448] [cursor=pointer]':
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THHKX7d-8dLG6WttL4oYR0nn
+                  - 'link "Playwright TypeScript #25 How to Capture Screenshots in Playwright? | Page | Web Element | Full Page · 15:38" [ref=e1451] [cursor=pointer]':
+                    - /url: /watch?v=0i0U9MSxJpc&list=PLUeDIlio4THHKX7d-8dLG6WttL4oYR0nn
+                  - link "View full playlist" [ref=e1456] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THHKX7d-8dLG6WttL4oYR0nn
+            - generic [ref=e1458] [cursor=pointer]:
+              - link [ref=e1459] [cursor=pointer]:
+                - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THF0cjomgtkh94K1G9WtkTLA
+                - generic [ref=e1469] [cursor=pointer]:
+                  - generic [ref=e1472] [cursor=pointer]:
+                    - img
+                  - generic [ref=e1473] [cursor=pointer]: 74 videos
+              - generic [ref=e1476] [cursor=pointer]:
+                - heading "Playwright TypeScript Locators" [level=3] [ref=e1477] [cursor=pointer]:
+                  - link "Playwright TypeScript Locators" [ref=e1478] [cursor=pointer]:
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THF0cjomgtkh94K1G9WtkTLA
+                    - generic [ref=e1479] [cursor=pointer]: Playwright TypeScript Locators
+                - generic [ref=e1481] [cursor=pointer]:
+                  - generic [ref=e1482] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e1485] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1486] [cursor=pointer]: •
+                    - link "Playlist" [ref=e1489] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - 'link "Playwright TypeScript #9 Install Playwright using VS Code | Playwright Automation Tutorial · 6:26" [ref=e1493] [cursor=pointer]':
+                    - /url: /watch?v=-kccujLmsDs&list=PLUeDIlio4THF0cjomgtkh94K1G9WtkTLA
+                  - 'link "Playwright TypeScript #25 How to Capture Screenshots in Playwright? | Page | Web Element | Full Page · 15:38" [ref=e1496] [cursor=pointer]':
+                    - /url: /watch?v=0i0U9MSxJpc&list=PLUeDIlio4THF0cjomgtkh94K1G9WtkTLA
+                  - link "View full playlist" [ref=e1501] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THF0cjomgtkh94K1G9WtkTLA
+            - generic [ref=e1503] [cursor=pointer]:
+              - link [ref=e1504] [cursor=pointer]:
+                - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THG8irTXJn-Z02nYzmi6dUOF
+                - generic [ref=e1514] [cursor=pointer]:
+                  - generic [ref=e1517] [cursor=pointer]:
+                    - img
+                  - generic [ref=e1518] [cursor=pointer]: 11 videos
+              - generic [ref=e1521] [cursor=pointer]:
+                - heading "Playwright with Azure DevOps Pipeline☑️" [level=3] [ref=e1522] [cursor=pointer]:
+                  - link "Playwright with Azure DevOps Pipeline☑️" [ref=e1523] [cursor=pointer]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THG8irTXJn-Z02nYzmi6dUOF
+                    - generic [ref=e1524] [cursor=pointer]: Playwright with Azure DevOps Pipeline☑️
+                - generic [ref=e1526] [cursor=pointer]:
+                  - generic [ref=e1527] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e1530] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1531] [cursor=pointer]: •
+                    - link "Playlist" [ref=e1534] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - link "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08" [ref=e1538] [cursor=pointer]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THG8irTXJn-Z02nYzmi6dUOF&pp=0gcJCRYBOCosWNin
+                  - link "#66 Create Repository in Azure DevOps · 6:59" [ref=e1541] [cursor=pointer]:
+                    - /url: /watch?v=5XdGybA392I&list=PLUeDIlio4THG8irTXJn-Z02nYzmi6dUOF
+                  - link "View full playlist" [ref=e1546] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THG8irTXJn-Z02nYzmi6dUOF
+            - generic [ref=e1548] [cursor=pointer]:
+              - link [ref=e1549] [cursor=pointer]:
+                - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHm0M13lxr5FJCdPVeYgdjq
+                - generic [ref=e1559] [cursor=pointer]:
+                  - generic [ref=e1562] [cursor=pointer]:
+                    - img
+                  - generic [ref=e1563] [cursor=pointer]: 15 videos
+              - generic [ref=e1566] [cursor=pointer]:
+                - heading "Full Courses by Testers Talk" [level=3] [ref=e1567] [cursor=pointer]:
+                  - link "Full Courses by Testers Talk" [ref=e1568] [cursor=pointer]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHm0M13lxr5FJCdPVeYgdjq
+                    - generic [ref=e1569] [cursor=pointer]: Full Courses by Testers Talk
+                - generic [ref=e1571] [cursor=pointer]:
+                  - generic [ref=e1572] [cursor=pointer]:
+                    - link "Testers Talk" [ref=e1575] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e1576] [cursor=pointer]: •
+                    - link "Playlist" [ref=e1579] [cursor=pointer]:
+                      - /url: /@testerstalk
+                  - link "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08" [ref=e1583] [cursor=pointer]:
+                    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHm0M13lxr5FJCdPVeYgdjq
+                  - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e1586] [cursor=pointer]:
+                    - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHm0M13lxr5FJCdPVeYgdjq
+                  - link "View full playlist" [ref=e1591] [cursor=pointer]:
+                    - /url: /playlist?list=PLUeDIlio4THHm0M13lxr5FJCdPVeYgdjq
+  - generic [ref=e1617]:
+    - link "YouTube Video Player":
+      - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic "Time elapsed 0:02":
+              - generic:
+                - generic: 30:44
+```

@@ -1,0 +1,25 @@
+
+# Playwright
+
+# Node Related files
+node_modules/
+npm-debug.log
+
+# Playwright test results and reports
+/test-results/
+/playwright-report/
+/blob-report/
+
+# Playwright Downloads 
+/playwright/.cache/
+/ms-playwright/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Optional OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,176 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9] [cursor=pointer]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15] [cursor=pointer]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18] [cursor=pointer]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21] [cursor=pointer]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Logout" [ref=e23] [cursor=pointer]:
+            - /url: /logout
+            - generic [ref=e24] [cursor=pointer]: 
+            - text: Logout
+        - listitem [ref=e25]:
+          - link " Delete Account" [ref=e26] [cursor=pointer]:
+            - /url: /delete_account
+            - generic [ref=e27] [cursor=pointer]: 
+            - text: Delete Account
+        - listitem [ref=e28]:
+          - link " Test Cases" [ref=e29] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e30] [cursor=pointer]: 
+            - text: Test Cases
+        - listitem [ref=e31]:
+          - link " API Testing" [ref=e32] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e33] [cursor=pointer]: 
+            - text: API Testing
+        - listitem [ref=e34]:
+          - link " Video Tutorials" [ref=e35] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e36] [cursor=pointer]: 
+            - text: Video Tutorials
+        - listitem [ref=e37]:
+          - link " Contact us" [ref=e38] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e39] [cursor=pointer]: 
+            - text: Contact us
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 
+            - text: Logged in as
+            - generic [ref=e43]: Test User
+  - generic [ref=e45]:
+    - img "Website for practice" [ref=e46]
+    - textbox "Search Product" [ref=e47]: Stylish Dress
+    - button "" [ref=e48] [cursor=pointer]:
+      - generic [ref=e49] [cursor=pointer]: 
+  - generic [ref=e52]:
+    - generic [ref=e54]:
+      - heading "Category" [level=2] [ref=e55]
+      - generic [ref=e56]:
+        - heading " Women" [level=4] [ref=e59]:
+          - link " Women" [ref=e60] [cursor=pointer]:
+            - /url: "#Women"
+            - generic [ref=e62] [cursor=pointer]: 
+            - text: Women
+        - heading " Men" [level=4] [ref=e65]:
+          - link " Men" [ref=e66] [cursor=pointer]:
+            - /url: "#Men"
+            - generic [ref=e68] [cursor=pointer]: 
+            - text: Men
+        - heading " Kids" [level=4] [ref=e71]:
+          - link " Kids" [ref=e72] [cursor=pointer]:
+            - /url: "#Kids"
+            - generic [ref=e74] [cursor=pointer]: 
+            - text: Kids
+      - generic:
+        - insertion:
+          - generic:
+            - iframe
+      - generic [ref=e75]:
+        - heading "Brands" [level=2] [ref=e76]
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - link "(6) Polo" [ref=e80] [cursor=pointer]:
+              - /url: /brand_products/Polo
+              - generic [ref=e81] [cursor=pointer]: (6)
+              - text: Polo
+          - listitem [ref=e82]:
+            - link "(5) H&M" [ref=e83] [cursor=pointer]:
+              - /url: /brand_products/H&M
+              - generic [ref=e84] [cursor=pointer]: (5)
+              - text: H&M
+          - listitem [ref=e85]:
+            - link "(5) Madame" [ref=e86] [cursor=pointer]:
+              - /url: /brand_products/Madame
+              - generic [ref=e87] [cursor=pointer]: (5)
+              - text: Madame
+          - listitem [ref=e88]:
+            - link "(3) Mast & Harbour" [ref=e89] [cursor=pointer]:
+              - /url: /brand_products/Mast & Harbour
+              - generic [ref=e90] [cursor=pointer]: (3)
+              - text: Mast & Harbour
+          - listitem [ref=e91]:
+            - link "(4) Babyhug" [ref=e92] [cursor=pointer]:
+              - /url: /brand_products/Babyhug
+              - generic [ref=e93] [cursor=pointer]: (4)
+              - text: Babyhug
+          - listitem [ref=e94]:
+            - link "(3) Allen Solly Junior" [ref=e95] [cursor=pointer]:
+              - /url: /brand_products/Allen Solly Junior
+              - generic [ref=e96] [cursor=pointer]: (3)
+              - text: Allen Solly Junior
+          - listitem [ref=e97]:
+            - link "(3) Kookie Kids" [ref=e98] [cursor=pointer]:
+              - /url: /brand_products/Kookie Kids
+              - generic [ref=e99] [cursor=pointer]: (3)
+              - text: Kookie Kids
+          - listitem [ref=e100]:
+            - link "(5) Biba" [ref=e101] [cursor=pointer]:
+              - /url: /brand_products/Biba
+              - generic [ref=e102] [cursor=pointer]: (5)
+              - text: Biba
+    - generic [ref=e104]:
+      - heading "Searched Products" [level=2] [ref=e105]
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - img "ecommerce website products" [ref=e110]
+            - heading "Rs. 1500" [level=2] [ref=e111]
+            - paragraph [ref=e112]: Stylish Dress
+            - generic [ref=e113] [cursor=pointer]:
+              - generic [ref=e114] [cursor=pointer]: 
+              - text: Add to cart
+          - generic [ref=e115]:
+            - heading "Rs. 1500" [level=2] [ref=e116]
+            - paragraph [ref=e117]: Stylish Dress
+            - generic [ref=e118] [cursor=pointer]:
+              - generic [ref=e119] [cursor=pointer]: 
+              - text: Add to cart
+        - list [ref=e121]:
+          - listitem [ref=e122]:
+            - link " View Product" [ref=e123] [cursor=pointer]:
+              - /url: /product_details/4
+              - generic [ref=e124] [cursor=pointer]: 
+              - text: View Product
+  - contentinfo [ref=e125]:
+    - generic [ref=e130]:
+      - heading "Subscription" [level=2] [ref=e131]
+      - generic [ref=e132]:
+        - textbox "Your email address" [ref=e133]
+        - button "" [ref=e134] [cursor=pointer]:
+          - generic [ref=e135] [cursor=pointer]: 
+        - paragraph [ref=e136]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e140]: Copyright © 2021 All rights reserved
+  - link "" [ref=e141] [cursor=pointer]:
+    - /url: "#top"
+    - generic [ref=e142] [cursor=pointer]: 
+  - generic:
+    - insertion:
+      - generic:
+        - iframe
+  - generic [ref=e144]:
+    - button "Privacy and cookie settings" [ref=e145] [cursor=pointer]
+    - generic [ref=e146]: "Managed by Google. Complies with IAB TCF. CMP ID: 300"
+```
