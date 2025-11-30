@@ -20,7 +20,9 @@ import dotenv from 'dotenv';
  */
 
 export default defineConfig({
-  testDir: './tests',
+  testDir: '.',
+  //If you have tests in multiple folders put below:
+  testMatch: '**/*.spec.js',   // <-- PUT IT HERE
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -56,7 +58,7 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
 
-    {
+    /*{
       name: 'setup',
       testMatch: /.*login\.setup\.js/,
     },
@@ -64,13 +66,13 @@ export default defineConfig({
       name: 'chromium',
       use: { storageState: 'tests/setup/storageState.json' },
       dependencies: ['setup'],
-    },
+    },*/
       
 
-    //{
-      //name: 'chromium',
-      //use: { ...devices['Desktop Chrome'] },
-    //},
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
 
     //{
     //  name: 'firefox',

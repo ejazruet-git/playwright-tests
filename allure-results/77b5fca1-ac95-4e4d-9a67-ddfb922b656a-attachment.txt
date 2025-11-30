@@ -1,0 +1,1 @@
+Create account response: { responseCode: 400, message: 'Email already exists!' }

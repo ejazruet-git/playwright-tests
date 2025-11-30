@@ -38,7 +38,7 @@ await test.step('Step 2:Checkout & Place Order', async ({ }) => {
   await expect(page.locator('#form')).toContainText('Order Placed!');
   //Assert the success confirmation message
   await expect(page.locator('#form')).toContainText('Congratulations! Your order has been confirmed!');
-  //Validate checkout success URL.
+  //Validate checkout success URL or some 
   await expect(page).toHaveURL(/payment_done/);
   //await expect(page).toHaveURL('https://automationexercise.com/payment_done/500');
   //await page.waitForTimeout(5000);

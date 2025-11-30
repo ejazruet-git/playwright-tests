@@ -1,0 +1,2 @@
+Navigating to saved URL: https://automationexercise.com/payment_done/1500
+✅ Invoice downloaded successfully: D:\downloaded-file\invoice.txt
