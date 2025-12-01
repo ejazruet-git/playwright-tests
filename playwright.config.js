@@ -47,12 +47,12 @@ export default defineConfig({
     /* Base URL to use in actions like `await page.goto('/')`. */
     //baseURL: 'https://playwright.dev',
 
-    video: 'on', // or 'retain-on-failure'
-    screenshot: 'on', // or 'only-on-failure'
+    video: "on", // or 'retain-on-failure'
+    screenshot: "on", // or 'only-on-failure'
     //headless: false,
     
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on', // or 'on-first-retry'
+    trace: "on", // or 'on-first-retry'
   },
 
   /* Configure projects for major browsers */
