@@ -31,9 +31,6 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test --config=playwright.config.js --trace=retain-on-failure
       
-      - name: Generate Playwright Report
-        run: npx playwright show-report --reporter=html
-        
       - name: Upload Playwright HTML report
         if: always()     
         uses: actions/upload-artifact@v4
@@ -54,3 +51,9 @@ jobs:
         with:
           name: mplaywright-test-results
           path: playwright-test-output/
+
+      - name: Upload README as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: repo-readme
+          path: README.md
