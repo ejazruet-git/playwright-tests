@@ -28,9 +28,6 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test tests/test.spec.js
       
-      - name: Run Playwright tests
-        run: npx playwright test --config=playwright.config.js --trace=retain-on-failure
-      
       - name: Upload Playwright HTML report
         if: always()     
         uses: actions/upload-artifact@v4
@@ -45,9 +42,8 @@ jobs:
           name: test-results
           path: test-results/  
 
-      - name: Upload test results (trace, video, screenshots)
-        if: always()
+      - name: Upload test artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: mplaywright-test-results
-          path: playwright-test-output/
+          name: test-results
+          path: path/to/artifacts/**
